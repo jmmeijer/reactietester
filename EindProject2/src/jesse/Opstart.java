@@ -2,7 +2,7 @@ package jesse;
 
 import java.awt.*;
 
-import javax.swing.JFrame;
+import javax.swing.*;
 
 public class Opstart extends JFrame {
 
