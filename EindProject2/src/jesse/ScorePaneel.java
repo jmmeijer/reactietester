@@ -5,9 +5,12 @@ import java.awt.*;
 import javax.swing.*;
 
 public class ScorePaneel extends JPanel {
+	private ReactietestModel model;
 	private JLabel[] labels;
 
 	public ScorePaneel(ReactietestModel model){
+		
+		this.model = model;
 		
 		setLayout( new GridLayout(3,1) );
 		

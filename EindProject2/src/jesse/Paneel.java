@@ -6,7 +6,8 @@ import javax.swing.*;
 public class Paneel extends JPanel {
 	
 	private ReactietestModel model;
-	private JPanel scorePaneel, view, bedieningsPaneel;
+	private ReactietestView view;
+	private JPanel scorePaneel, bedieningsPaneel;
 	
 	public Paneel(){
 		
@@ -18,9 +19,9 @@ public class Paneel extends JPanel {
 		//scorePaneel.setPreferredSize(new Dimension(800, 50));
 		
 		view = new ReactietestView( model );
-		view.setPreferredSize(new Dimension(100, 150));
+		view.setPreferredSize(new Dimension(800, 600));
 		
-		bedieningsPaneel = new BedieningsPaneel();
+		bedieningsPaneel = new BedieningsPaneel( model, view );
 		
 		add(view, BorderLayout.CENTER);
 		add(scorePaneel, BorderLayout.LINE_END);
