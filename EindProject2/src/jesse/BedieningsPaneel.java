@@ -86,6 +86,11 @@ public class BedieningsPaneel extends JPanel {
 		startKnop.setEnabled(true);
 		startKnop.setVisible(true);
 		
+		circelKnop.setBackground(null);
+		driehoekKnop.setBackground(null);
+		vierkantKnop.setBackground(null);
+		rechthoekKnop.setBackground(null);
+		rechthoekKnop.setForeground(null);
 		
 		circelKnop.setEnabled(false);
 		driehoekKnop.setEnabled(false);
