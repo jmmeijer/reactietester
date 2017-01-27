@@ -3,19 +3,16 @@ package jesse;
 import java.awt.*;
 
 public class Rechthoek extends AbstracteVorm implements Vorm {
-	private int breedte, hoogte;
 	
-	public Rechthoek(int x, int y, Color kleur, int breedte, int hoogte){
-		super(x,y,kleur);
-		this.breedte = breedte;
-		this.hoogte = hoogte;
+	public Rechthoek(Graphics g, int x, int y, int breedte, int hoogte, Color kleur){
+		super(g,x,y,breedte,hoogte,kleur);
 	}
 
 	@Override
-	public void teken(Graphics g) {
-		g.setColor(kleur);
-		g.setClip(x, y, breedte, hoogte);
-		
+	public void teken() {
+		//pen.setColor(kleur);
+		pen.setClip(x, y, breedte, hoogte);
+		pen.fillRect(x,y,breedte, hoogte);
 	}
 
 }

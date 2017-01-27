@@ -3,17 +3,18 @@ package jesse;
 import java.awt.*;
 
 public abstract class AbstracteVorm extends Thread implements Vorm {
-
-	protected int x,y;
-	protected Color kleur;
+	protected Graphics pen;
+	protected int breedte, hoogte, x, y, dx, dy;
+	protected Color kleur, wiskleur;
 	protected boolean doorgaan;
 	
 	/*
 	 * Standaard constructor
 	 */
-	protected AbstracteVorm(){
+	protected AbstracteVorm(Graphics g){
 		x = y = 0;
-		kleur = Color.black;
+		kleur = Color.BLACK;
+		wiskleur = Color.LIGHT_GRAY;
 		doorgaan = true;
 	}
 	
@@ -21,15 +22,30 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 	/*
 	 * constuctor met positie- en kleurparameters
 	 */
-	protected AbstracteVorm(int x, int y, Color kleur){
+	protected AbstracteVorm(Graphics g, int x, int y, int breedte, int hoogte, Color kleur){
+		this.pen = g;
 		this.x = x;
 		this.y = y;
+		this.breedte = breedte;
+		this.hoogte = hoogte;
 		this.kleur = kleur;
+		wiskleur = Color.LIGHT_GRAY;
+		doorgaan = true;
+		dx = 3;
+		dy = 2;
 	}
 	
-	public void run(){
-		
-	}
+	  public void run(){
+		  pen.translate(dx, dy);
+		  pen.setColor(kleur);
+		  pen.setXORMode(wiskleur);
+		  while(doorgaan){
+			  teken();
+			  slaap(20);
+			  teken();
+			  verplaats();
+		  }
+	  }
 	
 	public void nuStoppen(){
 		doorgaan = false;
@@ -39,8 +55,27 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 	 * abstracte methode
 	 * @see jesse.Vorm#teken(java.awt.Graphics)
 	 */
-	public abstract void teken(Graphics g);
+	//public abstract void teken(Graphics g);
 	
+	// TODO: abstract met graphics of met kleur
+	public abstract void teken();
 	
+	//TODO:Dynamisch randen uitlezen
+	public void verplaats() {
+		if( x + dx <= 0 || x + dx + breedte >= 700 ) {
+			dx = -dx;
+		}
+		if( y + dy <= 0 || y + dy + hoogte >= 500 ) {
+			dy = -dy;
+		}
+		x += dx;  y += dy;
+	}
+	
+	public void slaap(int millisec){
+		try{
+			Thread.sleep(millisec);
+		}
+		catch(InterruptedException e){}
+	}
 	
 }

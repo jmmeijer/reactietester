@@ -3,28 +3,27 @@ package jesse;
 import java.awt.*;
 
 public class Driehoek extends AbstracteVorm implements Vorm {
-	private int breedte, hoogte;
+	
 	private int[] xPoints, yPoints;
 	
-	public Driehoek(int x, int y, Color kleur, int breedte, int hoogte){
-		super(x,y,kleur);
-		this.breedte = breedte;
-		this.hoogte = hoogte;
+	public Driehoek(Graphics g, int x, int y, int breedte, int hoogte, Color kleur){
+		super(g,x,y,breedte,hoogte,kleur);
 		
-		
-		
-		xPoints = new int[] {hoogte, 0, hoogte};
-		yPoints = new int[] {0, breedte/2, breedte};
-		
-		
+
 	}
 
 	@Override
-	public void teken(Graphics g) {
-		g.setColor(kleur);
-		g.setClip(x, y, breedte, hoogte);
+	public void teken() {
+		//pen.setClip(x, y, breedte, hoogte);
 		
-		//drawPolygon(xPoints, yPoints, 3);
+		// In teken functie omdat het geupdate moet wordens
+		xPoints = new int[] {x, (x+breedte/2), (x+breedte)};
+		yPoints = new int[] {(y+hoogte), y, (y+hoogte)};
+		
+		pen.fillPolygon(xPoints, yPoints, 3);
+		//Polygon p = new Polygon(xPoints, yPoints, 3);
+		//pen.fillPolygon(p);
+		
 		
 	}
 
