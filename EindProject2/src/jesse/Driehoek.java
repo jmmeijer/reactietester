@@ -6,8 +6,8 @@ public class Driehoek extends AbstracteVorm implements Vorm {
 	
 	private int[] xPoints, yPoints;
 	
-	public Driehoek(Graphics g, int x, int y, int breedte, int hoogte, Color kleur){
-		super(g,x,y,breedte,hoogte,kleur);
+	public Driehoek(Graphics g, ReactietestModel model, ReactietestView view, int breedte, int hoogte, Color kleur){
+		super(g,model,view,breedte,hoogte,kleur);
 		
 
 	}

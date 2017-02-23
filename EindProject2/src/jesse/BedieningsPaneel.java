@@ -5,17 +5,20 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.*;
+import javax.swing.border.Border;
 
 public class BedieningsPaneel extends JPanel {
 	private ReactietestModel model;
 	private ReactietestView view;
 	private JButton startKnop, stopKnop, circelKnop, driehoekKnop, vierkantKnop, rechthoekKnop;
 
-	public BedieningsPaneel(ReactietestModel model,ReactietestView view){
+	public BedieningsPaneel(ReactietestModel model, ReactietestView view){
 		
 		this.model = model;
 		this.view = view;
 		
+		Border border = BorderFactory.createEmptyBorder(10,10,10,10);
+		setBorder(border);
 		
 		startKnop = new JButton("Start");
 		stopKnop = new JButton("Stop");
@@ -63,7 +66,6 @@ public class BedieningsPaneel extends JPanel {
 		startKnop.setEnabled(false);
 		startKnop.setVisible(false);
 		
-		
 		circelKnop.setBackground(Color.RED);
 		driehoekKnop.setBackground(Color.GREEN);
 		vierkantKnop.setBackground(Color.YELLOW);
@@ -100,6 +102,8 @@ public class BedieningsPaneel extends JPanel {
 		view.stop();
 	}
 	
+	
+	
 	//inwendige actionhandler klasse
 	class Handler implements ActionListener {
 
@@ -109,17 +113,28 @@ public class BedieningsPaneel extends JPanel {
 			String command = e.getActionCommand();
 			
 			switch (command) {
-            case "start":  start();
+            case "start":
+            	start();
         		break;
-            case "stop":  stop();
+            case "stop":
+            	stop();
         		break;
-            case "circel":  
+            case "circel":
+            	view.stopCircel();
+            	view.startCircel();
+            	// Check vorm actief: goed? score en verwijder
         		break;
-            case "driehoek":  
+            case "driehoek":
+            	view.stopDriehoek();
+            	view.startDriehoek();
         		break;
-            case "vierkant":  
+            case "vierkant":
+            	view.stopVierkant();
+            	view.startVierkant();
         		break;
-            case "rechthoek":  
+            case "rechthoek":
+            	view.stopRechthoek();
+            	view.startRechthoek();
         		break;
             default:
             	break;

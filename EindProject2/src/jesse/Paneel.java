@@ -7,7 +7,8 @@ public class Paneel extends JPanel {
 	
 	private ReactietestModel model;
 	private ReactietestView view;
-	private JPanel scorePaneel, bedieningsPaneel;
+	private ScorePaneel scorePaneel;
+	private JPanel bedieningsPaneel;
 	
 	public Paneel(){
 		
@@ -15,13 +16,16 @@ public class Paneel extends JPanel {
 		
 		model = new ReactietestModel();
 		
-		scorePaneel = new ScorePaneel( model );
-		//scorePaneel.setPreferredSize(new Dimension(800, 50));
-		
 		view = new ReactietestView( model );
 		view.setPreferredSize(new Dimension(800, 600));
+		view.setMinimumSize(new Dimension(800, 600));
 		
 		bedieningsPaneel = new BedieningsPaneel( model, view );
+		
+		// TODO: Moet ook bedieningspaneel meekrijgen?
+		scorePaneel = new ScorePaneel( model, view );
+		//scorePaneel.setPreferredSize(new Dimension(800, 50));
+		scorePaneel.begin();
 		
 		add(view, BorderLayout.CENTER);
 		add(scorePaneel, BorderLayout.LINE_END);

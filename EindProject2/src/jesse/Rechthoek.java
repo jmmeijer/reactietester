@@ -4,8 +4,8 @@ import java.awt.*;
 
 public class Rechthoek extends AbstracteVorm implements Vorm {
 	
-	public Rechthoek(Graphics g, int x, int y, int breedte, int hoogte, Color kleur){
-		super(g,x,y,breedte,hoogte,kleur);
+	public Rechthoek(Graphics g, ReactietestModel model, ReactietestView view, int breedte, int hoogte, Color kleur){
+		super(g,model,view,breedte,hoogte,kleur);
 	}
 
 	@Override
