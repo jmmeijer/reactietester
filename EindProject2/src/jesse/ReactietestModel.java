@@ -19,8 +19,37 @@ public class ReactietestModel {
 	
 	public void berekenGemiddeldeReactietijd(double reactietijd){
 		
-		gemiddeldeReactietijd = ((gemiddeldeReactietijd * aantalKlikken) + reactietijd) / aantalKlikken++;
+		gemiddeldeReactietijd = ((gemiddeldeReactietijd * (aantalKlikken-1)) + reactietijd) / aantalKlikken;
 		
+	}
+	
+	public double getGemiddeldeReactietijd(){
+		return gemiddeldeReactietijd;
+	}
+	
+	public void voegKlikToe(){
+		aantalKlikken++;
+	}
+	
+	public void voegFoutToe(){
+		aantalFouten++;
+	}
+	
+	public int getAantalFouten(){
+		return aantalFouten;
+	}
+	
+
+	
+	public void reset(){
+		
+		for( AbstracteVorm vorm : vormen ){
+			vorm.nuStoppen();
+		}
+		
+		vormen.clear();
+		aantalKlikken = aantalFouten = 0;
+		gemiddeldeReactietijd = 0;
 	}
 	
 	
@@ -39,17 +68,12 @@ public class ReactietestModel {
 		}
 	}
 	*/
-
-	
-
-	
-	
-	
 	
 	public void printScore(){
 		for( AbstracteVorm vorm : vormen ){
-			double test = vorm.getTeller();
-			System.out.println( "" + test );
+			System.out.println( "" + vorm );
+			double teller = vorm.getTeller();
+			System.out.println( "" + teller );
 		}
 	}
 

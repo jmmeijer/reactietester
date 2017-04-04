@@ -4,6 +4,10 @@ import java.awt.*;
 
 import javax.swing.*;
 
+/**
+ * @author Jesse
+ *
+ */
 public class Opstart extends JFrame {
 
 	public static void main( String args[] ) {

@@ -100,6 +100,7 @@ public class BedieningsPaneel extends JPanel {
 		rechthoekKnop.setEnabled(false);
 		
 		view.stop();
+		model.reset();
 	}
 	
 	
@@ -120,21 +121,25 @@ public class BedieningsPaneel extends JPanel {
             	stop();
         		break;
             case "circel":
-            	view.stopCircel();
-            	view.startCircel();
-            	// Check vorm actief: goed? score en verwijder
+            	view.klikCircel();
+            	//view.stopCircel();
+            	//view.startCircel();
+            	// TODO Check vorm actief: goed? score en verwijder
         		break;
             case "driehoek":
-            	view.stopDriehoek();
-            	view.startDriehoek();
+            	view.klikDriehoek();
+            	//view.stopDriehoek();
+            	//view.startDriehoek();
         		break;
             case "vierkant":
-            	view.stopVierkant();
-            	view.startVierkant();
+            	view.klikVierkant();
+            	//view.stopVierkant();
+            	//view.startVierkant();
         		break;
             case "rechthoek":
-            	view.stopRechthoek();
-            	view.startRechthoek();
+            	view.klikRechthoek();
+            	//view.stopRechthoek();
+            	//view.startRechthoek();
         		break;
             default:
             	break;

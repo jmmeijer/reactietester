@@ -15,7 +15,6 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 	protected double teller;
 	protected Color kleur, wiskleur;
 	protected boolean doorgaan, pauze;
-	//protected javax.swing.Timer timer;
 	
 	/*
 	 * Standaard constructor
@@ -29,7 +28,6 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 		pauze = false;
 		
 		teller = 0;
-		//timer = new javax.swing.Timer( 100, new TimerHandler() );
 	}
 	
 	
@@ -43,13 +41,17 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 		this.breedte = breedte;
 		this.hoogte = hoogte;
 		this.kleur = kleur;
-		//wiskleur = Color.LIGHT_GRAY;
 		wiskleur = view.getBackground();
 		aantalMillisec = 20;
+
+		init();
+		
 		doorgaan = true;
 		pauze = false;
-		
-		//willekeurige startpositie bepalen
+	}
+	
+	protected void init(){
+		//willekeurige startpositie bepalen, verplaatsen om meermaals aan te kunnen roepen?
 		x = getRandomInRange(0,view.getWidth()-breedte);
 		y = getRandomInRange(0,view.getHeight()-hoogte);
 		
@@ -61,27 +63,13 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 		vertraging = new Random().nextInt(10000);
 		
 		teller = 0;
-		//timer = new javax.swing.Timer( 100, new TimerHandler() );
 	}
 	
 	protected int getRandomInRange(int min, int max){
 		return new Random().nextInt(max + 1 -min) + min;
 	}
-	/*
-	 * Onnodig door format optie op de label
-	private static double round(double getal, int decimalen) {
-		// aantal decimalen mag niet minder dan 0 zijn
-	    if (decimalen < 0) throw new IllegalArgumentException();
 
-	    BigDecimal bd = new BigDecimal(getal);
-	    bd = bd.setScale(decimalen, RoundingMode.HALF_UP);
-	    return bd.doubleValue();
-	}
-	*/
 	public double getTeller(){
-		
-		//double test = round(teller, 2);
-		
 		return teller;
 	}
 	
@@ -92,18 +80,14 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 		pen.translate(dx, dy);
 		pen.setColor(kleur);
 		pen.setXORMode(wiskleur);
-		//timer.start();
 		
 		while(doorgaan){
 			//TODO: is dit de juiste plaats voor de teller?
 			// Teller dynamisch berekend op basis van verversing per aantal milliseconden.
 			teller += (double) aantalMillisec / 1000;
-			//System.out.println(teller);
-			//pen.setColor(kleur);
 			teken();
 			//TODO: vanuit hier naar model sturen?
 			slaap(aantalMillisec);
-			//pen.setColor(wiskleur);
 			teken();
 			verplaats();
 		}
@@ -120,26 +104,42 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 	
 	public void nuStoppen(){
 		doorgaan = false;
-		//timer.stop();
 		teller = 0.0;
 	}
 	
+	public void reset(){
+		init();
+		//slaap(vertraging);
+		//pauzeVoorbij();
+	}
+	
 	public void pauzeer(){
+		teken();
 		pauze = true;
+		
 	}
 	
 	public synchronized void pauzeVoorbij(){
+		
 		pauze = false;
+	//slaap(vertraging);
 		notify();
+		
+		
 	}
 	
 	public synchronized void controleerPauze() throws InterruptedException {
+		
 		while( pauze ){
 			wait();
 		}
+
 	}
 	
-	//TODO:Dynamisch randen uitlezen
+	public boolean heeftPauze(){
+		return pauze;
+	}
+	
 	public void verplaats() {
 		
 		//System.out.println( "" + x + " + " + dx + " <= " + view.getWidth() );
