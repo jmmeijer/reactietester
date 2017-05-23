@@ -3,6 +3,7 @@ package jesse;
 import java.awt.*;
 import javax.swing.*;
 
+@SuppressWarnings("serial")
 public class Paneel extends JPanel {
 	
 	private ReactietestModel model;
@@ -24,7 +25,7 @@ public class Paneel extends JPanel {
 		
 		// TODO: Moet ook bedieningspaneel meekrijgen?
 		scorePaneel = new ScorePaneel( model, view );
-		//scorePaneel.setPreferredSize(new Dimension(800, 50));
+		scorePaneel.setPreferredSize(new Dimension(120, 10));
 		scorePaneel.begin();
 		
 		add(view, BorderLayout.CENTER);

@@ -38,7 +38,6 @@ public class ReactietestModel {
 	public int getAantalFouten(){
 		return aantalFouten;
 	}
-	
 
 	
 	public void reset(){

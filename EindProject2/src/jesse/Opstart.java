@@ -1,18 +1,18 @@
 package jesse;
 
-import java.awt.*;
-
 import javax.swing.*;
 
 /**
+ * De klasse <code>Opstart</code> waarin het een instantie van Paneel wordt geinstantieerd. 
  * @author Jesse
- *
+ * @version 5.0
+ * @see Paneel
  */
+
+@SuppressWarnings("serial")
 public class Opstart extends JFrame {
 
 	public static void main( String args[] ) {
-		int width = 800;
-		int height = 600;
 		
 		JFrame frame = new JFrame();
 		
@@ -28,7 +28,7 @@ public class Opstart extends JFrame {
 		frame.setLocationRelativeTo(null);
 		
 		frame.setVisible( true );
-		
+			
 	}
 	
 }

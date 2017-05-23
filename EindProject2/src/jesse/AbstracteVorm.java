@@ -1,17 +1,13 @@
 package jesse;
 
 import java.awt.*;
-import java.awt.event.*;
-import java.math.*;
 import java.util.*;
-//import javax.swing.Timer;
 
 public abstract class AbstracteVorm extends Thread implements Vorm {
 	protected Graphics pen;
 	protected ReactietestView view;
 	protected ReactietestModel model;
 	protected int aantalMillisec, breedte, hoogte, x, y, dx, dy, vertraging;
-	//TODO: make protected
 	protected double teller;
 	protected Color kleur, wiskleur;
 	protected boolean doorgaan, pauze;
@@ -51,6 +47,7 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 	}
 	
 	protected void init(){
+		
 		//willekeurige startpositie bepalen, verplaatsen om meermaals aan te kunnen roepen?
 		x = getRandomInRange(0,view.getWidth()-breedte);
 		y = getRandomInRange(0,view.getHeight()-hoogte);
@@ -63,6 +60,7 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 		vertraging = new Random().nextInt(10000);
 		
 		teller = 0;
+		
 	}
 	
 	protected int getRandomInRange(int min, int max){
@@ -82,11 +80,11 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 		pen.setXORMode(wiskleur);
 		
 		while(doorgaan){
-			//TODO: is dit de juiste plaats voor de teller?
+
 			// Teller dynamisch berekend op basis van verversing per aantal milliseconden.
 			teller += (double) aantalMillisec / 1000;
 			teken();
-			//TODO: vanuit hier naar model sturen?
+
 			slaap(aantalMillisec);
 			teken();
 			verplaats();
@@ -108,7 +106,14 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 	}
 	
 	public void reset(){
-		init();
+		
+		if(pauze){
+			init();
+			slaap(5000);
+			pauzeVoorbij();
+			
+		}
+		
 		//slaap(vertraging);
 		//pauzeVoorbij();
 	}
@@ -116,15 +121,15 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 	public void pauzeer(){
 		teken();
 		pauze = true;
-		
+		doorgaan = false;
 	}
 	
 	public synchronized void pauzeVoorbij(){
 		
 		pauze = false;
+		doorgaan = true;
 	//slaap(vertraging);
 		notify();
-		
 		
 	}
 	
@@ -179,12 +184,5 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 			
 		}
 	}
-	/*
-	class TimerHandler implements ActionListener {
-		public void actionPerformed(ActionEvent e){
-			teller =+ 0.01;
-			
-		}
-	}
-	*/
+	
 }

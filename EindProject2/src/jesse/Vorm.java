@@ -1,7 +1,12 @@
 package jesse;
 
-import java.awt.*;
+/*
+ * De interface-klasse <code>Vorm</code>, zodat de subklassen de methode <code>teken</code> kunnen overriden en deze in een loop kan worden aangeroepen
+ * @author Jesse
+ * @version 0.5
+ */
 
 public interface Vorm {
+	//abstracte methode
 	public void teken();
 }

@@ -1,23 +1,21 @@
 package jesse;
 
 import java.awt.Color;
-import java.awt.Graphics;
-import java.util.*;
 
 import javax.swing.*;
 import javax.swing.border.*;
 
+@SuppressWarnings("serial")
 public class ReactietestView extends JPanel {
 	
 	private ReactietestModel model;
 	private AbstracteVorm circel, driehoek, vierkant, rechthoek;
 	private int grootte;
-	private Border opvulling, rand;
+	private Border rand;
 
 	public ReactietestView(ReactietestModel model){
 		this.model = model;
 		grootte = 50;
-		//opvulling = BorderFactory.createEmptyBorder(100,100,100,100);
 		rand = BorderFactory.createLineBorder(Color.black);
 		//setBorder(opvulling);
 		setBorder(rand);
@@ -95,7 +93,7 @@ public class ReactietestView extends JPanel {
 	}
 	
 	public void klikCircel(){
-		model.voegKlikToe();
+		// model.voegKlikToe(); // Moved to model
 		if(!circel.heeftPauze()){
 			circel.pauzeer();
 			//circel = null;
@@ -106,7 +104,7 @@ public class ReactietestView extends JPanel {
 	}
 	
 	public void klikDriehoek(){
-		model.voegKlikToe();
+		// model.voegKlikToe(); // Moved to model
 		if(!driehoek.heeftPauze()){
 			driehoek.pauzeer();
 			//driehoek = null;
@@ -116,7 +114,7 @@ public class ReactietestView extends JPanel {
 			
 			//driehoek.init();
 //			//driehoek.slaap(2000);
-			//driehoek.pauzeVoorbij();
+//			driehoek.pauzeVoorbij();
 			
 		}else{
 			model.voegFoutToe();
@@ -125,7 +123,7 @@ public class ReactietestView extends JPanel {
 	}
 	
 	public void klikVierkant(){
-		model.voegKlikToe();
+		// model.voegKlikToe(); // Moved to model
 		if(!vierkant.heeftPauze()){
 			vierkant.pauzeer();
 			model.berekenGemiddeldeReactietijd( vierkant.getTeller() );
@@ -135,7 +133,7 @@ public class ReactietestView extends JPanel {
 	}
 	
 	public void klikRechthoek(){
-		model.voegKlikToe();
+		// model.voegKlikToe(); // Moved to model
 		if(!rechthoek.heeftPauze()){
 			rechthoek.pauzeer();
 			model.berekenGemiddeldeReactietijd( rechthoek.getTeller() );
@@ -151,10 +149,10 @@ public class ReactietestView extends JPanel {
 		startVierkant();
 		startRechthoek();
 		
-		this.model.voegVormToe(circel);
-		this.model.voegVormToe(driehoek);
-		this.model.voegVormToe(vierkant);
-		this.model.voegVormToe(rechthoek);
+		model.voegVormToe(circel);
+		model.voegVormToe(driehoek);
+		model.voegVormToe(vierkant);
+		model.voegVormToe(rechthoek);
 	}
 	
 	public void stop(){

@@ -2,14 +2,20 @@ package jesse;
 
 import java.awt.*;
 
+/*
+ * De klasse <code>Driehoek</code> is een subklasse van <code>AbstracteVorm</code> en respresenteert een driehoek
+ * @author Jesse
+ * @version 0.5
+ * @see AbstracteVorm
+ * @see Vorm
+ */
+
 public class Driehoek extends AbstracteVorm implements Vorm {
 	
 	private int[] xPoints, yPoints;
 	
 	public Driehoek(Graphics g, ReactietestModel model, ReactietestView view, int breedte, int hoogte, Color kleur){
 		super(g,model,view,breedte,hoogte,kleur);
-		
-
 	}
 
 	@Override
@@ -21,9 +27,6 @@ public class Driehoek extends AbstracteVorm implements Vorm {
 		yPoints = new int[] {(y+hoogte), y, (y+hoogte)};
 		
 		pen.fillPolygon(xPoints, yPoints, 3);
-		//Polygon p = new Polygon(xPoints, yPoints, 3);
-		//pen.fillPolygon(p);
-		
 		
 	}
 

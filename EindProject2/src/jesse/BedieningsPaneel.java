@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 import javax.swing.*;
 import javax.swing.border.Border;
 
+@SuppressWarnings("serial")
 public class BedieningsPaneel extends JPanel {
 	private ReactietestModel model;
 	private ReactietestView view;
@@ -121,22 +122,26 @@ public class BedieningsPaneel extends JPanel {
             	stop();
         		break;
             case "circel":
+            	model.voegKlikToe();
             	view.klikCircel();
             	//view.stopCircel();
             	//view.startCircel();
             	// TODO Check vorm actief: goed? score en verwijder
         		break;
             case "driehoek":
+            	model.voegKlikToe();
             	view.klikDriehoek();
             	//view.stopDriehoek();
             	//view.startDriehoek();
         		break;
             case "vierkant":
+            	model.voegKlikToe();
             	view.klikVierkant();
             	//view.stopVierkant();
             	//view.startVierkant();
         		break;
             case "rechthoek":
+            	model.voegKlikToe();
             	view.klikRechthoek();
             	//view.stopRechthoek();
             	//view.startRechthoek();

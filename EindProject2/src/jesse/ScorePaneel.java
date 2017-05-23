@@ -7,10 +7,9 @@ import java.util.*;
 import javax.swing.*;
 import javax.swing.border.*;
 
+@SuppressWarnings("serial")
 public class ScorePaneel extends JPanel implements Runnable{
 	private ReactietestModel model;
-	private ReactietestView view;
-	//TODO: naar model?
 	private Thread draad;
 	private boolean doorgaan;
 	private JLabel[] labels;
@@ -20,6 +19,7 @@ public class ScorePaneel extends JPanel implements Runnable{
 	public ScorePaneel(ReactietestModel model, ReactietestView view){
 		
 		this.model = model;
+		this.view = view;
 		
 		setLayout( new GridLayout(8,1,10,10) );
 		Border border = BorderFactory.createEmptyBorder(20,20,20,20);
@@ -107,39 +107,31 @@ public class ScorePaneel extends JPanel implements Runnable{
 			labels[1].setText( "" + dec.format(gemiddeldeReactietijd) ); 
 			labels[3].setText( "" + aantalFouten ); 
 			
-			/*
-			if(view.circel == null){
+/*
+			if(view.circel != null){
 				labels[4].setText("d" + view.circel.getTeller() );
 			}
-			*/
+*/	
 			
 			//model.printScore();
 			
 			
 			
-			
+
 			int i = 0;
 			
 			//System.out.println( "" + model.vormen.size() );
 			
 			for( AbstracteVorm vorm : model.vormen ){
-				
 				if(vorm != null){
-					
 					double teller = vorm.getTeller();
-					
 					//System.out.println( "" + dec.format(teller) );
-					
 					JLabel label = tijdlabels.get(i);
-					
 					label.setText( "" + dec.format(teller) );
-					
-					
 				}else{
 					
 				}
 				i++;
-
 			}
 
 			
