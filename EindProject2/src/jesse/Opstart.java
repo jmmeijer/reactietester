@@ -3,9 +3,10 @@ package jesse;
 import javax.swing.*;
 
 /**
- * De klasse <code>Opstart</code> waarin het een instantie van Paneel wordt geinstantieerd. 
+ * De klasse <code>Opstart</code> waarin het een instantie van Paneel wordt geinstantieerd.
+ * 
  * @author Jesse
- * @version 5.0
+ * @version 0.5
  * @see Paneel
  */
 

@@ -8,9 +8,10 @@ import javax.swing.*;
 import javax.swing.border.*;
 
 /**
- * De klasse <code>ScorePaneel</code> geeft de score en aantal fouten en het aantal milliseconden dat een vorm zichtbaar is weer 
+ * De klasse <code>ScorePaneel</code> geeft de score en aantal fouten en het aantal milliseconden dat een vorm zichtbaar is weer.
+ * 
  * @author Jesse
- * @version 5.0
+ * @version 0.5
  * @see ReactietestModel
  */
 

@@ -2,6 +2,15 @@ package jesse;
 
 import java.awt.*;
 
+/**
+ * Klasse <code>Rechthoek</code>, subklasse van <code>AbstracteVorm</code> maakt gebruik van de interface <code>Vorm</code>.
+ * 
+ * @author Jesse
+ * @version 0.5
+ * @see AbstracteVorm
+ * @see Vorm
+ */
+
 public class Rechthoek extends AbstracteVorm implements Vorm {
 	
 	/*

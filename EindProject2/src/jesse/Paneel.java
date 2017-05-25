@@ -3,7 +3,9 @@ package jesse;
 import java.awt.*;
 import javax.swing.*;
 
-/*
+/**
+ * De klasse <code>Paneel</code> voegt alle verschillende onderdelen en views samen in 1 JPanel.
+ * 
  * @author Jesse
  * @version 0.5
  * @see ReactietestModel
@@ -11,6 +13,7 @@ import javax.swing.*;
  * @see ScorePaneel
  * @see BedieningsPaneel
  */
+
 @SuppressWarnings("serial")
 public class Paneel extends JPanel {
 	

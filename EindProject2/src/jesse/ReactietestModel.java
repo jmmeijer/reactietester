@@ -2,8 +2,9 @@ package jesse;
 
 import java.util.*;
 
-/*
- * Model voor de Reactietest waarin de vormen, het aantal klikken, fouten en gemiddelde reactietijd worden bijgehouden.
+/**
+ * Het model <code>ReactietestModel</code> voor de Reactietest waarin de vormen, het aantal klikken, fouten en gemiddelde reactietijd worden bijgehouden.
+ * 
  * @author Jesse
  * @version 0.5
  */

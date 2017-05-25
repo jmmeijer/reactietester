@@ -2,8 +2,9 @@ package jesse;
 
 import java.awt.*;
 
-/*
- * De klasse <code>Driehoek</code> is een subklasse van <code>AbstracteVorm</code> en respresenteert een driehoek
+/**
+ * De klasse <code>Driehoek</code> is een subklasse van <code>AbstracteVorm</code> en respresenteert een driehoek.
+ * 
  * @author Jesse
  * @version 0.5
  * @see AbstracteVorm

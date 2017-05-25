@@ -4,9 +4,10 @@ import java.awt.*;
 import java.util.*;
 
 /**
- * De klasse <code>AbstracteVorm</code> met alle gedeelde methodes van de verschillende vormen. 
+ * De klasse <code>AbstracteVorm</code> met alle gedeelde methodes van de verschillende vormen.
+ * 
  * @author Jesse
- * @version 5.0
+ * @version 0.5
  * @see Vorm
  */
 

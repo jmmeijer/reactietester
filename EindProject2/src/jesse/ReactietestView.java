@@ -5,12 +5,14 @@ import java.awt.Color;
 import javax.swing.*;
 import javax.swing.border.*;
 
-/*
- * ReactietestView-klasse met het gebied waarop de vormen getekent worden. Ook worden de vormen vanuit deze klasse geïnstantieert.
+/**
+ * De klasse <code>ReactietestView</code> met het gebied waarop de vormen getekent worden. Ook worden de vormen vanuit deze klasse aangemaakt.
+ * 
  * @author Jesse
  * @version 0.5
  * @see ReactietestModel
  */
+
 @SuppressWarnings("serial")
 public class ReactietestView extends JPanel {
 	

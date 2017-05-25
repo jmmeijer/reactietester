@@ -8,12 +8,14 @@ import javax.swing.*;
 import javax.swing.border.Border;
 
 /**
- * De klasse BedieningsPaneel is verantwoordelijk voor het aanmaken van de knoppen en het afhandelen van events.
+ * De klasse <code>BedieningsPaneel</code> is verantwoordelijk voor het aanmaken van de knoppen en het afhandelen van events.
+ * 
  * @author Jesse
  * @version 0.5
  * @see ReactietestModel
  * @see ReactietestView
  */
+
 @SuppressWarnings("serial")
 public class BedieningsPaneel extends JPanel {
 	private ReactietestModel model;
