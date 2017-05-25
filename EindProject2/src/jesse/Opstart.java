@@ -45,6 +45,9 @@ public class Opstart {
 		opstart.showWelkom();
 	}
 	
+	/*
+	 * Genereert een Dialog met uitleg over het spel.
+	 */
 	public void showWelkom(){
 		JTextPane output = new JTextPane();
         output.setEditable(false);
