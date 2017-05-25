@@ -5,6 +5,12 @@ import java.awt.Color;
 import javax.swing.*;
 import javax.swing.border.*;
 
+/*
+ * ReactietestView-klasse met het gebied waarop de vormen getekent worden. Ook worden de vormen vanuit deze klasse geïnstantieert.
+ * @author Jesse
+ * @version 0.5
+ * @see ReactietestModel
+ */
 @SuppressWarnings("serial")
 public class ReactietestView extends JPanel {
 	
@@ -13,6 +19,10 @@ public class ReactietestView extends JPanel {
 	private int grootte;
 	private Border rand;
 
+	/*
+	 * Constructor van de klasse ReactietestView
+	 * @param model het model krijgt objecten en fouten doorgestuurd.
+	 */
 	public ReactietestView(ReactietestModel model){
 		this.model = model;
 		grootte = 50;
@@ -24,46 +34,51 @@ public class ReactietestView extends JPanel {
 		circel = driehoek = rechthoek = vierkant = null;
 		
 	}
-	/*
-	public double getTeller(){
-		return circel.getTeller();
-	}
-	*/
 
 	// TODO verhuizen naar controller.
+	/*
+	 * maakt een vorm aan als deze nog niet bestaat en start hem.
+	 */
 	public void startCircel(){
 		if( circel == null && getGraphics() != null){
 			circel = new Circel(getGraphics(), model, this, grootte, Color.RED);
-			// geef door aan model
-			//model.voegVormToe(circel);
 			circel.start();
 		}
 	}
 	
+	/*
+	 * maakt een vorm aan als deze nog niet bestaat en start hem.
+	 */
 	public void startDriehoek(){
 		if(driehoek == null && getGraphics() != null){
 			driehoek = new Driehoek(getGraphics(), model, this, grootte, grootte, Color.GREEN);
-			//model.voegVormToe(driehoek);
 			driehoek.start();
 		}
 	}
 	
+	/*
+	 * maakt een vorm aan als deze nog niet bestaat en start hem.
+	 */
 	public void startVierkant(){
 		if(vierkant == null && getGraphics() != null){
 			vierkant = new Rechthoek(getGraphics(), model, this, grootte, grootte, Color.YELLOW);
-			//model.voegVormToe(vierkant);
 			vierkant.start();
 		}
 	}
 	
+	/*
+	 * maakt een vorm aan als deze nog niet bestaat en start hem.
+	 */
 	public void startRechthoek(){
 		if(rechthoek == null && getGraphics() != null){
 			rechthoek = new Rechthoek(getGraphics(), model, this, grootte, grootte-10, Color.BLUE);
-			//model.voegVormToe(rechthoek);
 			rechthoek.start();
 		}
 	}
 	
+	/*
+	 * stopt de vorm als deze bestaat.
+	 */
 	public void stopCircel(){
 		if(circel != null){  
 			circel.nuStoppen();
@@ -71,6 +86,9 @@ public class ReactietestView extends JPanel {
 		}
 	}
 	
+	/*
+	 * stopt de vorm als deze bestaat.
+	 */
 	public void stopDriehoek(){
 		if(driehoek != null){  
 			driehoek.nuStoppen();
@@ -78,6 +96,9 @@ public class ReactietestView extends JPanel {
 		}
 	}
 	
+	/*
+	 * stopt de vorm als deze bestaat.
+	 */
 	public void stopVierkant(){
 		if(vierkant != null){  
 			vierkant.nuStoppen();
@@ -85,6 +106,9 @@ public class ReactietestView extends JPanel {
 		}
 	}
 	
+	/*
+	 * stopt de vorm als deze bestaat.
+	 */
 	public void stopRechthoek(){
 		if(rechthoek != null){  
 			rechthoek.nuStoppen();
@@ -92,8 +116,10 @@ public class ReactietestView extends JPanel {
 		}
 	}
 	
+	/*
+	 * Pauzeert de vorm als deze geen pauze heeft en bereken de nieuwe reactietijd, voeg anders een fout toe aan het model.
+	 */
 	public void klikCircel(){
-		// model.voegKlikToe(); // Moved to model
 		if(!circel.heeftPauze()){
 			circel.pauzeer();
 			//circel = null;
@@ -103,27 +129,24 @@ public class ReactietestView extends JPanel {
 		}
 	}
 	
+	/*
+	 * Pauzeert de vorm als deze geen pauze heeft en bereken de nieuwe reactietijd, voeg anders een fout toe aan het model.
+	 */
 	public void klikDriehoek(){
-		// model.voegKlikToe(); // Moved to model
 		if(!driehoek.heeftPauze()){
 			driehoek.pauzeer();
 			//driehoek = null;
 			model.berekenGemiddeldeReactietijd( driehoek.getTeller() );
-			
 			driehoek.reset();
-			
-			//driehoek.init();
-//			//driehoek.slaap(2000);
-//			driehoek.pauzeVoorbij();
-			
 		}else{
 			model.voegFoutToe();
-			//System.out.println( "" + model.aantalFouten );
 		}
 	}
 	
+	/*
+	 * Pauzeert de vorm als deze geen pauze heeft en bereken de nieuwe reactietijd, voeg anders een fout toe aan het model.
+	 */
 	public void klikVierkant(){
-		// model.voegKlikToe(); // Moved to model
 		if(!vierkant.heeftPauze()){
 			vierkant.pauzeer();
 			model.berekenGemiddeldeReactietijd( vierkant.getTeller() );
@@ -132,8 +155,10 @@ public class ReactietestView extends JPanel {
 		}
 	}
 	
+	/*
+	 * Pauzeert de vorm als deze geen pauze heeft en bereken de nieuwe reactietijd, voeg anders een fout toe aan het model.
+	 */
 	public void klikRechthoek(){
-		// model.voegKlikToe(); // Moved to model
 		if(!rechthoek.heeftPauze()){
 			rechthoek.pauzeer();
 			model.berekenGemiddeldeReactietijd( rechthoek.getTeller() );
@@ -142,6 +167,9 @@ public class ReactietestView extends JPanel {
 		}
 	}
 	
+	/*
+	 * Roept alle startfuncties van de vormen aan en geef de vorm objecten door aan het model.
+	 */
 	public void start(){
 		
 		startCircel();
@@ -155,10 +183,10 @@ public class ReactietestView extends JPanel {
 		model.voegVormToe(rechthoek);
 	}
 	
+	/*
+	 * Zet alle vorm-objecten op null
+	 */
 	public void stop(){
-		/*
-		stopCircel();
-		*/
 		circel = driehoek = vierkant = rechthoek = null;
 		repaint();
 		

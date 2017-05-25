@@ -7,12 +7,24 @@ import java.awt.event.ActionListener;
 import javax.swing.*;
 import javax.swing.border.Border;
 
+/**
+ * De klasse BedieningsPaneel is verantwoordelijk voor het aanmaken van de knoppen en het afhandelen van events.
+ * @author Jesse
+ * @version 0.5
+ * @see ReactietestModel
+ * @see ReactietestView
+ */
 @SuppressWarnings("serial")
 public class BedieningsPaneel extends JPanel {
 	private ReactietestModel model;
 	private ReactietestView view;
 	private JButton startKnop, stopKnop, circelKnop, driehoekKnop, vierkantKnop, rechthoekKnop;
 
+	/*
+	 * Constructor Bedieningspaneel
+	 * @param model het model moet worden aangepast na interactie met de knoppen.
+	 * @view view er worden methodes in de view aangeroepen vanuit deze klasse.
+	 */
 	public BedieningsPaneel(ReactietestModel model, ReactietestView view){
 		
 		this.model = model;
@@ -60,6 +72,9 @@ public class BedieningsPaneel extends JPanel {
 		
 	}
 	
+	/*
+	 * Bij het starten van het spel worden knoppen in- en uitgeschakeld.
+	 */
 	public void start(){
 		
 		stopKnop.setEnabled(true);
@@ -80,9 +95,13 @@ public class BedieningsPaneel extends JPanel {
 		vierkantKnop.setEnabled(true);
 		rechthoekKnop.setEnabled(true);
 		
+		// start de view
 		view.start();
 	}
 	
+	/*
+	 *  Bij het stoppen van het spel worden knoppen in- en uitgeschakeld.
+	 */
 	public void stop(){
 		stopKnop.setEnabled(false);
 		stopKnop.setVisible(false);
@@ -100,7 +119,9 @@ public class BedieningsPaneel extends JPanel {
 		vierkantKnop.setEnabled(false);
 		rechthoekKnop.setEnabled(false);
 		
+		// stop de view
 		view.stop();
+		// reset het model
 		model.reset();
 	}
 	
@@ -109,7 +130,6 @@ public class BedieningsPaneel extends JPanel {
 	//inwendige actionhandler klasse
 	class Handler implements ActionListener {
 
-		@Override
 		public void actionPerformed(ActionEvent e) {
 			
 			String command = e.getActionCommand();
@@ -126,7 +146,6 @@ public class BedieningsPaneel extends JPanel {
             	view.klikCircel();
             	//view.stopCircel();
             	//view.startCircel();
-            	// TODO Check vorm actief: goed? score en verwijder
         		break;
             case "driehoek":
             	model.voegKlikToe();

@@ -3,6 +3,13 @@ package jesse;
 import java.awt.*;
 import java.util.*;
 
+/**
+ * De klasse <code>AbstracteVorm</code> met alle gedeelde methodes van de verschillende vormen. 
+ * @author Jesse
+ * @version 5.0
+ * @see Vorm
+ */
+
 public abstract class AbstracteVorm extends Thread implements Vorm {
 	protected Graphics pen;
 	protected ReactietestView view;
@@ -14,6 +21,7 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 	
 	/*
 	 * Standaard constructor
+	 * @param g Graphics voor het tekenen van de vorm.
 	 */
 	protected AbstracteVorm(Graphics g){
 		x = y = 0;
@@ -28,7 +36,13 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 	
 	
 	/*
-	 * constuctor met positie- en kleurparameters
+	 * Constuctor met positie- en kleurparameters
+	 * @param g Graphics voor het tekenen van de vorm
+	 * @param model om het model te kunnen manipuleren vanuit een Vorm-subklasse
+	 * @param view om de positie te bepalen t.o.v. de view
+	 * @breedte breedte van de vorm
+	 * @param hoogte hoogte van de vorm
+	 * @kleur kleur van de vorm
 	 */
 	protected AbstracteVorm(Graphics g, ReactietestModel model, ReactietestView view, int breedte, int hoogte, Color kleur){
 		this.pen = g;
@@ -46,6 +60,9 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 		pauze = false;
 	}
 	
+	/*
+	 * Initialiseren van de vorm in aparte functie om deze opnieuw te kunnen aanroepen i.p.v. een nieuwe instantie van de klasse aan te maken
+	 */
 	protected void init(){
 		
 		//willekeurige startpositie bepalen, verplaatsen om meermaals aan te kunnen roepen?
@@ -63,14 +80,27 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 		
 	}
 	
+	/*
+	 * Genereer een willekeurig heel getal binnen een bepaalde range
+	 * @min eerste getal van range
+	 * @max laatste getal van range
+	 */
 	protected int getRandomInRange(int min, int max){
 		return new Random().nextInt(max + 1 -min) + min;
 	}
 
+	/*
+	 * Geeft de waarde van teller
+	 */
 	public double getTeller(){
 		return teller;
 	}
 	
+	/*
+	 * (non-Javadoc)
+	 * @see java.lang.Thread#run()
+	 */
+	@Override
 	public void run(){
 		
 		slaap(vertraging);
@@ -92,12 +122,9 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 	}
 	
 	/*
-	 * abstracte methode
-	 * @see jesse.Vorm#teken(java.awt.Graphics)
+	 * (non-Javadoc)
+	 * @see jesse.Vorm#teken()
 	 */
-	//public abstract void teken(Graphics g);
-	
-	// TODO: abstracte functie met graphics of met kleur
 	public abstract void teken();
 	
 	public void nuStoppen(){
@@ -105,6 +132,9 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 		teller = 0.0;
 	}
 	
+	/*
+	 * Reset de vorm en herinitialeer deze.
+	 */
 	public void reset(){
 		
 		if(pauze){
@@ -118,12 +148,18 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 		//pauzeVoorbij();
 	}
 	
+	/* 
+	 * Zet de vorm op pauze
+	 */
 	public void pauzeer(){
 		teken();
 		pauze = true;
 		doorgaan = false;
 	}
 	
+	/*
+	 * Beëindigt de pauze
+	 */
 	public synchronized void pauzeVoorbij(){
 		
 		pauze = false;
@@ -133,6 +169,9 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 		
 	}
 	
+	/* 
+	 * Controleert of de vorm nog pauze heeft
+	 */
 	public synchronized void controleerPauze() throws InterruptedException {
 		
 		while( pauze ){
@@ -141,10 +180,16 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 
 	}
 	
+	/* 
+	 * Controleert of de vorm nog pauze heeft
+	 */
 	public boolean heeftPauze(){
 		return pauze;
 	}
 	
+	/*
+	 * Verplaatst de vorm naar de nieuwe positie en controleert of deze botst met de view
+	 */
 	public void verplaats() {
 		
 		//System.out.println( "" + x + " + " + dx + " <= " + view.getWidth() );
@@ -162,7 +207,7 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 			x = view.getWidth() - breedte;
 			dx = -dx;
 		}
-		// TODO: correctie van niet afgeledge baan.
+		// TODO: correctie van niet afgelegde baan.
 		x += dx;
 		if( y + dy <= 0 ) {
 			//y = 0;
@@ -175,6 +220,10 @@ public abstract class AbstracteVorm extends Thread implements Vorm {
 		y += dy;
 	}
 	
+	/*
+	 * Zet de thread op slaap
+	 * @param millisec het aantal milliseconden dat de thread moet slapen
+	 */
 	public void slaap(int millisec){
 		try{
 			Thread.sleep(millisec);

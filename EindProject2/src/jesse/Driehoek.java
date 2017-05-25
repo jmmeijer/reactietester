@@ -14,10 +14,23 @@ public class Driehoek extends AbstracteVorm implements Vorm {
 	
 	private int[] xPoints, yPoints;
 	
+	/*
+	 * Constructor
+	 * @param g Graphics voor het tekenen van de vorm
+	 * @param model om het model te kunnen manipuleren vanuit een Vorm-subklasse
+	 * @param view om de positie te bepalen t.o.v. de view
+	 * @breedte breedte van de vorm
+	 * @param hoogte hoogte van de vorm
+	 * @kleur kleur van de vorm
+	 */
 	public Driehoek(Graphics g, ReactietestModel model, ReactietestView view, int breedte, int hoogte, Color kleur){
 		super(g,model,view,breedte,hoogte,kleur);
 	}
-
+	
+	/*
+	 * (non-Javadoc)
+	 * @see jesse.AbstracteVorm#teken()
+	 */
 	@Override
 	public void teken() {
 		//pen.setClip(x, y, breedte, hoogte);
