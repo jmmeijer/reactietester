@@ -12,13 +12,22 @@ import javax.swing.*;
 @SuppressWarnings("serial")
 public class Opstart extends JFrame {
 
+	/*
+	 * main methode voor de applicatie.
+	 */
 	public static void main( String args[] ) {
 		
+		/*
+		 * Maak een nieuw JFrame aan.
+		 */
 		JFrame frame = new JFrame();
 		
 		frame.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
 		frame.setTitle( "Reactietest" );
 
+		/*
+		 * Maak een instantie van de Paneel-klasse aan en geef deze door aan het frame.
+		 */
 		frame.setContentPane( new Paneel() );
 		
 		// Venstergrootte automatisch instellen op basis van inhoud
