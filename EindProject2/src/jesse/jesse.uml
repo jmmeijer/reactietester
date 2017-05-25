@@ -1,461 +1,461 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_I1ncUEFFEeeLNuHkYnDh2w" name="jesse">
-  <elementImport xmi:id="_I2KO4UFFEeeLNuHkYnDh2w">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_nXecIEFFEeeLNuHkYnDh2w" name="jesse">
+  <elementImport xmi:id="_nXtsskFFEeeLNuHkYnDh2w">
     <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
   </elementImport>
-  <elementImport xmi:id="_I2KO4kFFEeeLNuHkYnDh2w">
+  <elementImport xmi:id="_nXtss0FFEeeLNuHkYnDh2w">
     <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
   </elementImport>
-  <elementImport xmi:id="_I2KO40FFEeeLNuHkYnDh2w">
+  <elementImport xmi:id="_nXtstEFFEeeLNuHkYnDh2w">
     <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
   </elementImport>
-  <elementImport xmi:id="_I2KO5EFFEeeLNuHkYnDh2w">
+  <elementImport xmi:id="_nXtstUFFEeeLNuHkYnDh2w">
     <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
   </elementImport>
-  <elementImport xmi:id="_I2KO5UFFEeeLNuHkYnDh2w">
+  <elementImport xmi:id="_nXtstkFFEeeLNuHkYnDh2w">
     <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
   </elementImport>
-  <elementImport xmi:id="_I2KO5kFFEeeLNuHkYnDh2w">
+  <elementImport xmi:id="_nXtst0FFEeeLNuHkYnDh2w">
     <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
   </elementImport>
-  <elementImport xmi:id="_I2KO50FFEeeLNuHkYnDh2w">
+  <elementImport xmi:id="_nXtsuEFFEeeLNuHkYnDh2w">
     <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
   </elementImport>
-  <elementImport xmi:id="_I2KO6EFFEeeLNuHkYnDh2w">
+  <elementImport xmi:id="_nXtsuUFFEeeLNuHkYnDh2w">
     <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
   </elementImport>
-  <elementImport xmi:id="_I2KO6UFFEeeLNuHkYnDh2w">
+  <elementImport xmi:id="_nXtsukFFEeeLNuHkYnDh2w">
     <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
   </elementImport>
-  <elementImport xmi:id="_I2KO6kFFEeeLNuHkYnDh2w">
+  <elementImport xmi:id="_nXtsu0FFEeeLNuHkYnDh2w">
     <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
   </elementImport>
-  <elementImport xmi:id="_I2KO60FFEeeLNuHkYnDh2w">
+  <elementImport xmi:id="_nXtsvEFFEeeLNuHkYnDh2w">
     <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
   </elementImport>
-  <elementImport xmi:id="_I2KO7EFFEeeLNuHkYnDh2w">
+  <elementImport xmi:id="_nXtsvUFFEeeLNuHkYnDh2w">
     <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
   </elementImport>
-  <packageImport xmi:id="_I2Jn0EFFEeeLNuHkYnDh2w">
+  <packageImport xmi:id="_nXtssEFFEeeLNuHkYnDh2w">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packageImport xmi:id="_I2KO4EFFEeeLNuHkYnDh2w">
+  <packageImport xmi:id="_nXtssUFFEeeLNuHkYnDh2w">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Package" xmi:id="_I2KO7UFFEeeLNuHkYnDh2w" name="jesse">
-    <packagedElement xmi:type="uml:Class" xmi:id="_I2K18EFFEeeLNuHkYnDh2w" name="Opstart" visibility="public">
-      <eAnnotations xmi:id="_I2K18UFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
-        <details xmi:id="_I2K18kFFEeeLNuHkYnDh2w" key="documentation" value=" De klasse &lt;code>Opstart&lt;/code> waarin het een instantie van Paneel wordt geinstantieerd.&#xD;&#xA; &#xD;&#xA; @author Jesse&#xD;&#xA; @version 0.5&#xD;&#xA; @see Paneel&#xD;&#xA;"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_nXtsvkFFEeeLNuHkYnDh2w" name="jesse">
+    <packagedElement xmi:type="uml:Class" xmi:id="_nXuTwEFFEeeLNuHkYnDh2w" name="Opstart" visibility="public">
+      <eAnnotations xmi:id="_nXuTwUFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+        <details xmi:id="_nXuTwkFFEeeLNuHkYnDh2w" key="documentation" value=" De klasse &lt;code>Opstart&lt;/code> waarin het een instantie van Paneel wordt geinstantieerd.&#xD;&#xA; &#xD;&#xA; @author Jesse&#xD;&#xA; @version 0.5&#xD;&#xA; @see Paneel&#xD;&#xA;"/>
       </eAnnotations>
-      <elementImport xmi:id="_I2NSMUFFEeeLNuHkYnDh2w" importedElement="_I2NSMEFFEeeLNuHkYnDh2w" visibility="private"/>
-      <packageImport xmi:id="_I2NSNEFFEeeLNuHkYnDh2w" importedPackage="_I2NSM0FFEeeLNuHkYnDh2w" visibility="private"/>
-      <ownedOperation xmi:id="_I2OgUEFFEeeLNuHkYnDh2w" name="main" visibility="public" isStatic="true">
-        <ownedParameter xmi:id="_I2OgUUFFEeeLNuHkYnDh2w" name="args">
+      <elementImport xmi:id="_nXwI80FFEeeLNuHkYnDh2w" importedElement="_nXwI8kFFEeeLNuHkYnDh2w" visibility="private"/>
+      <packageImport xmi:id="_nXwI9kFFEeeLNuHkYnDh2w" importedPackage="_nXwI9UFFEeeLNuHkYnDh2w" visibility="private"/>
+      <ownedOperation xmi:id="_nXx-IEFFEeeLNuHkYnDh2w" name="main" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_nXx-IUFFEeeLNuHkYnDh2w" name="args">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I2OgUkFFEeeLNuHkYnDh2w" value="*"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nXx-IkFFEeeLNuHkYnDh2w" value="*"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_I2QVgEFFEeeLNuHkYnDh2w" name="showWelkom" visibility="public"/>
+      <ownedOperation xmi:id="_nXzzUEFFEeeLNuHkYnDh2w" name="showWelkom" visibility="public"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_I2K180FFEeeLNuHkYnDh2w" name="Rechthoek" visibility="public">
-      <eAnnotations xmi:id="_I2K19EFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
-        <details xmi:id="_I2K19UFFEeeLNuHkYnDh2w" key="documentation" value=" Klasse &lt;code>Rechthoek&lt;/code>, subklasse van &lt;code>AbstracteVorm&lt;/code> maakt gebruik van de interface &lt;code>Vorm&lt;/code>.&#xD;&#xA; &#xD;&#xA; @author Jesse&#xD;&#xA; @version 0.5&#xD;&#xA; @see AbstracteVorm&#xD;&#xA; @see Vorm&#xD;&#xA;"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nXuTw0FFEeeLNuHkYnDh2w" name="Rechthoek" visibility="public">
+      <eAnnotations xmi:id="_nXuTxEFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+        <details xmi:id="_nXuTxUFFEeeLNuHkYnDh2w" key="documentation" value=" Klasse &lt;code>Rechthoek&lt;/code>, subklasse van &lt;code>AbstracteVorm&lt;/code> maakt gebruik van de interface &lt;code>Vorm&lt;/code>.&#xD;&#xA; &#xD;&#xA; @author Jesse&#xD;&#xA; @version 0.5&#xD;&#xA; @see AbstracteVorm&#xD;&#xA; @see Vorm&#xD;&#xA;"/>
       </eAnnotations>
-      <packageImport xmi:id="_I2SKsUFFEeeLNuHkYnDh2w" importedPackage="_I2MrIUFFEeeLNuHkYnDh2w" visibility="private"/>
-      <generalization xmi:id="_I2SKsEFFEeeLNuHkYnDh2w" general="_I2LdDEFFEeeLNuHkYnDh2w"/>
-      <interfaceRealization xmi:id="_I2RjoEFFEeeLNuHkYnDh2w" name="jesse.Vorm" client="_I2K180FFEeeLNuHkYnDh2w" supplier="_I2LdCUFFEeeLNuHkYnDh2w" contract="_I2LdCUFFEeeLNuHkYnDh2w"/>
-      <ownedOperation xmi:id="_I2aGgEFFEeeLNuHkYnDh2w" name="Rechthoek" visibility="public">
-        <ownedParameter xmi:id="_I2aGgUFFEeeLNuHkYnDh2w" name="g" type="_I2SxwEFFEeeLNuHkYnDh2w"/>
-        <ownedParameter xmi:id="_I2aGgkFFEeeLNuHkYnDh2w" name="model" type="_I2LdA0FFEeeLNuHkYnDh2w"/>
-        <ownedParameter xmi:id="_I2aGg0FFEeeLNuHkYnDh2w" name="view" type="_I2MEEEFFEeeLNuHkYnDh2w"/>
-        <ownedParameter xmi:id="_I2aGhEFFEeeLNuHkYnDh2w" name="breedte">
+      <packageImport xmi:id="_nX1ogUFFEeeLNuHkYnDh2w" importedPackage="_nXwI8UFFEeeLNuHkYnDh2w" visibility="private"/>
+      <generalization xmi:id="_nX1ogEFFEeeLNuHkYnDh2w" general="_nXu63EFFEeeLNuHkYnDh2w"/>
+      <interfaceRealization xmi:id="_nX1BcEFFEeeLNuHkYnDh2w" name="jesse.Vorm" client="_nXuTw0FFEeeLNuHkYnDh2w" supplier="_nXu62UFFEeeLNuHkYnDh2w" contract="_nXu62UFFEeeLNuHkYnDh2w"/>
+      <ownedOperation xmi:id="_nX6hAEFFEeeLNuHkYnDh2w" name="Rechthoek" visibility="public">
+        <ownedParameter xmi:id="_nX6hAUFFEeeLNuHkYnDh2w" name="g" type="_nX2PkEFFEeeLNuHkYnDh2w"/>
+        <ownedParameter xmi:id="_nX6hAkFFEeeLNuHkYnDh2w" name="model" type="_nXu600FFEeeLNuHkYnDh2w"/>
+        <ownedParameter xmi:id="_nX6hA0FFEeeLNuHkYnDh2w" name="view" type="_nXvh4EFFEeeLNuHkYnDh2w"/>
+        <ownedParameter xmi:id="_nX6hBEFFEeeLNuHkYnDh2w" name="breedte">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_I2aGhUFFEeeLNuHkYnDh2w" name="hoogte">
+        <ownedParameter xmi:id="_nX6hBUFFEeeLNuHkYnDh2w" name="hoogte">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_I2aGhkFFEeeLNuHkYnDh2w" name="kleur" type="_I2VOAEFFEeeLNuHkYnDh2w"/>
+        <ownedParameter xmi:id="_nX6hBkFFEeeLNuHkYnDh2w" name="kleur" type="_nX3dsEFFEeeLNuHkYnDh2w"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_I2eX8EFFEeeLNuHkYnDh2w" name="teken" visibility="public"/>
+      <ownedOperation xmi:id="_nX8WMEFFEeeLNuHkYnDh2w" name="teken" visibility="public"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_I2K19kFFEeeLNuHkYnDh2w" name="Paneel" visibility="public">
-      <eAnnotations xmi:id="_I2K190FFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
-        <details xmi:id="_I2K1-EFFEeeLNuHkYnDh2w" key="documentation" value=" De klasse &lt;code>Paneel&lt;/code> voegt alle verschillende onderdelen en views samen in 1 JPanel.&#xD;&#xA; &#xD;&#xA; @author Jesse&#xD;&#xA; @version 0.5&#xD;&#xA; @see ReactietestModel&#xD;&#xA; @see ReactietestView&#xD;&#xA; @see ScorePaneel&#xD;&#xA; @see BedieningsPaneel&#xD;&#xA;"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nXuTxkFFEeeLNuHkYnDh2w" name="Paneel" visibility="public">
+      <eAnnotations xmi:id="_nXuTx0FFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+        <details xmi:id="_nXuTyEFFEeeLNuHkYnDh2w" key="documentation" value=" De klasse &lt;code>Paneel&lt;/code> voegt alle verschillende onderdelen en views samen in 1 JPanel.&#xD;&#xA; &#xD;&#xA; @author Jesse&#xD;&#xA; @version 0.5&#xD;&#xA; @see ReactietestModel&#xD;&#xA; @see ReactietestView&#xD;&#xA; @see ScorePaneel&#xD;&#xA; @see BedieningsPaneel&#xD;&#xA;"/>
       </eAnnotations>
-      <packageImport xmi:id="_I2jQckFFEeeLNuHkYnDh2w" importedPackage="_I2MrIUFFEeeLNuHkYnDh2w" visibility="private"/>
-      <packageImport xmi:id="_I2jQc0FFEeeLNuHkYnDh2w" importedPackage="_I2NSM0FFEeeLNuHkYnDh2w" visibility="private"/>
-      <generalization xmi:id="_I2jQcUFFEeeLNuHkYnDh2w" general="_I2jQcEFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I2kekEFFEeeLNuHkYnDh2w" name="model" visibility="private" type="_I2LdA0FFEeeLNuHkYnDh2w" association="_I7QKQEFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I2mTwEFFEeeLNuHkYnDh2w" name="view" visibility="private" type="_I2MEEEFFEeeLNuHkYnDh2w" association="_I7QKQkFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I2nh4EFFEeeLNuHkYnDh2w" name="scorePaneel" visibility="private" type="_I2LdBkFFEeeLNuHkYnDh2w" association="_I7QKREFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I2pXEEFFEeeLNuHkYnDh2w" name="bedieningsPaneel" visibility="private" type="_I2jQcEFFEeeLNuHkYnDh2w"/>
-      <ownedOperation xmi:id="_I2rMQEFFEeeLNuHkYnDh2w" name="Paneel" visibility="public"/>
+      <packageImport xmi:id="_nX-ycEFFEeeLNuHkYnDh2w" importedPackage="_nXwI8UFFEeeLNuHkYnDh2w" visibility="private"/>
+      <packageImport xmi:id="_nX-ycUFFEeeLNuHkYnDh2w" importedPackage="_nXwI9UFFEeeLNuHkYnDh2w" visibility="private"/>
+      <generalization xmi:id="_nX-LYUFFEeeLNuHkYnDh2w" general="_nX-LYEFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nX_ZgEFFEeeLNuHkYnDh2w" name="model" visibility="private" type="_nXu600FFEeeLNuHkYnDh2w" association="_nbjD0EFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nYAAkEFFEeeLNuHkYnDh2w" name="view" visibility="private" type="_nXvh4EFFEeeLNuHkYnDh2w" association="_nbjD0kFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nYAnoEFFEeeLNuHkYnDh2w" name="scorePaneel" visibility="private" type="_nXu61kFFEeeLNuHkYnDh2w" association="_nbjD1EFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nYBOsEFFEeeLNuHkYnDh2w" name="bedieningsPaneel" visibility="private" type="_nX-LYEFFEeeLNuHkYnDh2w"/>
+      <ownedOperation xmi:id="_nYCc0EFFEeeLNuHkYnDh2w" name="Paneel" visibility="public"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_I2LdAEFFEeeLNuHkYnDh2w" name="Circel" visibility="public">
-      <eAnnotations xmi:id="_I2LdAUFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
-        <details xmi:id="_I2LdAkFFEeeLNuHkYnDh2w" key="documentation" value=" Klasse &lt;code>Circel&lt;/code>, subklasse van &lt;code>AbstracteVorm&lt;/code> maakt gebruik van de interface &lt;code>Vorm&lt;/code>.&#xD;&#xA; &#xD;&#xA; @author Jesse&#xD;&#xA; @version 0.5&#xD;&#xA; @see AbstracteVorm&#xD;&#xA; @see Vorm&#xD;&#xA;"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nXu60EFFEeeLNuHkYnDh2w" name="Circel" visibility="public">
+      <eAnnotations xmi:id="_nXu60UFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+        <details xmi:id="_nXu60kFFEeeLNuHkYnDh2w" key="documentation" value=" Klasse &lt;code>Circel&lt;/code>, subklasse van &lt;code>AbstracteVorm&lt;/code> maakt gebruik van de interface &lt;code>Vorm&lt;/code>.&#xD;&#xA; &#xD;&#xA; @author Jesse&#xD;&#xA; @version 0.5&#xD;&#xA; @see AbstracteVorm&#xD;&#xA; @see Vorm&#xD;&#xA;"/>
       </eAnnotations>
-      <packageImport xmi:id="_I2wEwUFFEeeLNuHkYnDh2w" importedPackage="_I2MrIUFFEeeLNuHkYnDh2w" visibility="private"/>
-      <generalization xmi:id="_I2wEwEFFEeeLNuHkYnDh2w" general="_I2LdDEFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I2wEwkFFEeeLNuHkYnDh2w" name="diameter" visibility="private">
+      <packageImport xmi:id="_nYE5EUFFEeeLNuHkYnDh2w" importedPackage="_nXwI8UFFEeeLNuHkYnDh2w" visibility="private"/>
+      <generalization xmi:id="_nYE5EEFFEeeLNuHkYnDh2w" general="_nXu63EFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nYE5EkFFEeeLNuHkYnDh2w" name="diameter" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </ownedAttribute>
-      <interfaceRealization xmi:id="_I2u2oEFFEeeLNuHkYnDh2w" name="jesse.Vorm" client="_I2LdAEFFEeeLNuHkYnDh2w" supplier="_I2LdCUFFEeeLNuHkYnDh2w" contract="_I2LdCUFFEeeLNuHkYnDh2w"/>
-      <ownedOperation xmi:id="_I24noEFFEeeLNuHkYnDh2w" name="Circel" visibility="public">
-        <ownedParameter xmi:id="_I24noUFFEeeLNuHkYnDh2w" name="g" type="_I2SxwEFFEeeLNuHkYnDh2w"/>
-        <ownedParameter xmi:id="_I24nokFFEeeLNuHkYnDh2w" name="model" type="_I2LdA0FFEeeLNuHkYnDh2w"/>
-        <ownedParameter xmi:id="_I24no0FFEeeLNuHkYnDh2w" name="view" type="_I2MEEEFFEeeLNuHkYnDh2w"/>
-        <ownedParameter xmi:id="_I24npEFFEeeLNuHkYnDh2w" name="diameter">
+      <interfaceRealization xmi:id="_nYESAEFFEeeLNuHkYnDh2w" name="jesse.Vorm" client="_nXu60EFFEeeLNuHkYnDh2w" supplier="_nXu62UFFEeeLNuHkYnDh2w" contract="_nXu62UFFEeeLNuHkYnDh2w"/>
+      <ownedOperation xmi:id="_nYJKgEFFEeeLNuHkYnDh2w" name="Circel" visibility="public">
+        <ownedParameter xmi:id="_nYJxkEFFEeeLNuHkYnDh2w" name="g" type="_nX2PkEFFEeeLNuHkYnDh2w"/>
+        <ownedParameter xmi:id="_nYJxkUFFEeeLNuHkYnDh2w" name="model" type="_nXu600FFEeeLNuHkYnDh2w"/>
+        <ownedParameter xmi:id="_nYJxkkFFEeeLNuHkYnDh2w" name="view" type="_nXvh4EFFEeeLNuHkYnDh2w"/>
+        <ownedParameter xmi:id="_nYJxk0FFEeeLNuHkYnDh2w" name="diameter">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_I24npUFFEeeLNuHkYnDh2w" name="kleur" type="_I2VOAEFFEeeLNuHkYnDh2w"/>
+        <ownedParameter xmi:id="_nYJxlEFFEeeLNuHkYnDh2w" name="kleur" type="_nX3dsEFFEeeLNuHkYnDh2w"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_I285EEFFEeeLNuHkYnDh2w" name="teken" visibility="public"/>
+      <ownedOperation xmi:id="_nYM04EFFEeeLNuHkYnDh2w" name="teken" visibility="public"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_I2LdA0FFEeeLNuHkYnDh2w" name="ReactietestModel" visibility="public">
-      <eAnnotations xmi:id="_I2LdBEFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
-        <details xmi:id="_I2LdBUFFEeeLNuHkYnDh2w" key="documentation" value=" Het model &lt;code>ReactietestModel&lt;/code> voor de Reactietest waarin de vormen, het aantal klikken, fouten en gemiddelde reactietijd worden bijgehouden.&#xD;&#xA; &#xD;&#xA; @author Jesse&#xD;&#xA; @version 0.5&#xD;&#xA;"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nXu600FFEeeLNuHkYnDh2w" name="ReactietestModel" visibility="public">
+      <eAnnotations xmi:id="_nXu61EFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+        <details xmi:id="_nXu61UFFEeeLNuHkYnDh2w" key="documentation" value=" Het model &lt;code>ReactietestModel&lt;/code> voor de Reactietest waarin de vormen, het aantal klikken, fouten en gemiddelde reactietijd worden bijgehouden.&#xD;&#xA; &#xD;&#xA; @author Jesse&#xD;&#xA; @version 0.5&#xD;&#xA;"/>
       </eAnnotations>
-      <packageImport xmi:id="_I2-uQUFFEeeLNuHkYnDh2w" importedPackage="_I2-uQEFFEeeLNuHkYnDh2w" visibility="private"/>
-      <ownedAttribute xmi:id="_I2_8YEFFEeeLNuHkYnDh2w" name="vormen" visibility="public" type="_I2LdDEFFEeeLNuHkYnDh2w" isOrdered="true" isUnique="false" association="_I7QKRkFFEeeLNuHkYnDh2w">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I2_8YUFFEeeLNuHkYnDh2w" value="*"/>
+      <packageImport xmi:id="_nYODAUFFEeeLNuHkYnDh2w" importedPackage="_nYODAEFFEeeLNuHkYnDh2w" visibility="private"/>
+      <ownedAttribute xmi:id="_nYOqEEFFEeeLNuHkYnDh2w" name="vormen" visibility="public" type="_nXu63EFFEeeLNuHkYnDh2w" isOrdered="true" isUnique="false" association="_nbjq4EFFEeeLNuHkYnDh2w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nYOqEUFFEeeLNuHkYnDh2w" value="*"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_I2_8YkFFEeeLNuHkYnDh2w" name="aantalKlikken" visibility="private">
+      <ownedAttribute xmi:id="_nYOqEkFFEeeLNuHkYnDh2w" name="aantalKlikken" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_I3AjcEFFEeeLNuHkYnDh2w" name="aantalFouten" visibility="private">
+      <ownedAttribute xmi:id="_nYOqE0FFEeeLNuHkYnDh2w" name="aantalFouten" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_I3AjcUFFEeeLNuHkYnDh2w" name="gemiddeldeReactietijd" visibility="private">
+      <ownedAttribute xmi:id="_nYOqFEFFEeeLNuHkYnDh2w" name="gemiddeldeReactietijd" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
       </ownedAttribute>
-      <ownedOperation xmi:id="_I3BKgEFFEeeLNuHkYnDh2w" name="ReactietestModel" visibility="public"/>
-      <ownedOperation xmi:id="_I3C_sEFFEeeLNuHkYnDh2w" name="voegVormToe" visibility="public">
-        <ownedParameter xmi:id="_I3C_sUFFEeeLNuHkYnDh2w" name="vorm" type="_I2LdDEFFEeeLNuHkYnDh2w"/>
+      <ownedOperation xmi:id="_nYPRIEFFEeeLNuHkYnDh2w" name="ReactietestModel" visibility="public"/>
+      <ownedOperation xmi:id="_nYRGUEFFEeeLNuHkYnDh2w" name="voegVormToe" visibility="public">
+        <ownedParameter xmi:id="_nYRGUUFFEeeLNuHkYnDh2w" name="vorm" type="_nXu63EFFEeeLNuHkYnDh2w"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_I3E04EFFEeeLNuHkYnDh2w" name="berekenGemiddeldeReactietijd" visibility="public">
-        <ownedParameter xmi:id="_I3E04UFFEeeLNuHkYnDh2w" name="reactietijd">
+      <ownedOperation xmi:id="_nYSUcEFFEeeLNuHkYnDh2w" name="berekenGemiddeldeReactietijd" visibility="public">
+        <ownedParameter xmi:id="_nYSUcUFFEeeLNuHkYnDh2w" name="reactietijd">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_I3GqEEFFEeeLNuHkYnDh2w" name="getGemiddeldeReactietijd" visibility="public">
-        <ownedParameter xmi:id="_I3GqEUFFEeeLNuHkYnDh2w" direction="return">
+      <ownedOperation xmi:id="_nYS7gEFFEeeLNuHkYnDh2w" name="getGemiddeldeReactietijd" visibility="public">
+        <ownedParameter xmi:id="_nYS7gUFFEeeLNuHkYnDh2w" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_I3H4MEFFEeeLNuHkYnDh2w" name="voegKlikToe" visibility="public"/>
-      <ownedOperation xmi:id="_I3JtYEFFEeeLNuHkYnDh2w" name="voegFoutToe" visibility="public"/>
-      <ownedOperation xmi:id="_I3K7gEFFEeeLNuHkYnDh2w" name="getAantalFouten" visibility="public">
-        <ownedParameter xmi:id="_I3K7gUFFEeeLNuHkYnDh2w" direction="return">
+      <ownedOperation xmi:id="_nYUJoEFFEeeLNuHkYnDh2w" name="voegKlikToe" visibility="public"/>
+      <ownedOperation xmi:id="_nYVXwEFFEeeLNuHkYnDh2w" name="voegFoutToe" visibility="public"/>
+      <ownedOperation xmi:id="_nYV-0EFFEeeLNuHkYnDh2w" name="getAantalFouten" visibility="public">
+        <ownedParameter xmi:id="_nYV-0UFFEeeLNuHkYnDh2w" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_I3MJoEFFEeeLNuHkYnDh2w" name="reset" visibility="public"/>
-      <ownedOperation xmi:id="_I3NXwEFFEeeLNuHkYnDh2w" name="printScore" visibility="public"/>
+      <ownedOperation xmi:id="_nYXM8EFFEeeLNuHkYnDh2w" name="reset" visibility="public"/>
+      <ownedOperation xmi:id="_nYYbEEFFEeeLNuHkYnDh2w" name="printScore" visibility="public"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_I2LdBkFFEeeLNuHkYnDh2w" name="ScorePaneel" visibility="public">
-      <eAnnotations xmi:id="_I2LdB0FFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
-        <details xmi:id="_I2LdCEFFEeeLNuHkYnDh2w" key="documentation" value=" De klasse &lt;code>ScorePaneel&lt;/code> geeft de score en aantal fouten en het aantal milliseconden dat een vorm zichtbaar is weer.&#xD;&#xA; &#xD;&#xA; @author Jesse&#xD;&#xA; @version 0.5&#xD;&#xA; @see ReactietestModel&#xD;&#xA;"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nXu61kFFEeeLNuHkYnDh2w" name="ScorePaneel" visibility="public">
+      <eAnnotations xmi:id="_nXu610FFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+        <details xmi:id="_nXu62EFFEeeLNuHkYnDh2w" key="documentation" value=" De klasse &lt;code>ScorePaneel&lt;/code> geeft de score en aantal fouten en het aantal milliseconden dat een vorm zichtbaar is weer.&#xD;&#xA; &#xD;&#xA; @author Jesse&#xD;&#xA; @version 0.5&#xD;&#xA; @see ReactietestModel&#xD;&#xA;"/>
       </eAnnotations>
-      <elementImport xmi:id="_I3RCIkFFEeeLNuHkYnDh2w" importedElement="_I3RCIUFFEeeLNuHkYnDh2w" visibility="private"/>
-      <packageImport xmi:id="_I3QbEUFFEeeLNuHkYnDh2w" importedPackage="_I2MrIUFFEeeLNuHkYnDh2w" visibility="private"/>
-      <packageImport xmi:id="_I3RCI0FFEeeLNuHkYnDh2w" importedPackage="_I2-uQEFFEeeLNuHkYnDh2w" visibility="private"/>
-      <packageImport xmi:id="_I3RCJEFFEeeLNuHkYnDh2w" importedPackage="_I2NSM0FFEeeLNuHkYnDh2w" visibility="private"/>
-      <packageImport xmi:id="_I3RCJkFFEeeLNuHkYnDh2w" importedPackage="_I3RCJUFFEeeLNuHkYnDh2w" visibility="private"/>
-      <generalization xmi:id="_I3QbEEFFEeeLNuHkYnDh2w" general="_I2jQcEFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I3SQQEFFEeeLNuHkYnDh2w" name="model" visibility="private" type="_I2LdA0FFEeeLNuHkYnDh2w" association="_I7QKR0FFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I3TeYUFFEeeLNuHkYnDh2w" name="draad" visibility="private" type="_I3TeYEFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I3TeYkFFEeeLNuHkYnDh2w" name="doorgaan" visibility="private">
+      <elementImport xmi:id="_nYbeY0FFEeeLNuHkYnDh2w" importedElement="_nYbeYkFFEeeLNuHkYnDh2w" visibility="private"/>
+      <packageImport xmi:id="_nYbeYEFFEeeLNuHkYnDh2w" importedPackage="_nXwI8UFFEeeLNuHkYnDh2w" visibility="private"/>
+      <packageImport xmi:id="_nYbeZEFFEeeLNuHkYnDh2w" importedPackage="_nYODAEFFEeeLNuHkYnDh2w" visibility="private"/>
+      <packageImport xmi:id="_nYbeZUFFEeeLNuHkYnDh2w" importedPackage="_nXwI9UFFEeeLNuHkYnDh2w" visibility="private"/>
+      <packageImport xmi:id="_nYbeZ0FFEeeLNuHkYnDh2w" importedPackage="_nYbeZkFFEeeLNuHkYnDh2w" visibility="private"/>
+      <generalization xmi:id="_nYa3UEFFEeeLNuHkYnDh2w" general="_nX-LYEFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nYcFcEFFEeeLNuHkYnDh2w" name="model" visibility="private" type="_nXu600FFEeeLNuHkYnDh2w" association="_nbjq4UFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nYdTkUFFEeeLNuHkYnDh2w" name="draad" visibility="private" type="_nYdTkEFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nYdTkkFFEeeLNuHkYnDh2w" name="doorgaan" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_I3UsgUFFEeeLNuHkYnDh2w" name="labels" visibility="private" type="_I3UsgEFFEeeLNuHkYnDh2w">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I3VTkEFFEeeLNuHkYnDh2w" value="*"/>
+      <ownedAttribute xmi:id="_nYehsUFFEeeLNuHkYnDh2w" name="labels" visibility="private" type="_nYehsEFFEeeLNuHkYnDh2w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nYehskFFEeeLNuHkYnDh2w" value="*"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_I3Xv0EFFEeeLNuHkYnDh2w" name="tijdlabels" visibility="private" type="_I3UsgEFFEeeLNuHkYnDh2w" isOrdered="true" isUnique="false">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I3Xv0UFFEeeLNuHkYnDh2w" value="*"/>
+      <ownedAttribute xmi:id="_nYfv0EFFEeeLNuHkYnDh2w" name="tijdlabels" visibility="private" type="_nYehsEFFEeeLNuHkYnDh2w" isOrdered="true" isUnique="false">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nYgW4EFFEeeLNuHkYnDh2w" value="*"/>
       </ownedAttribute>
-      <ownedOperation xmi:id="_I3baMEFFEeeLNuHkYnDh2w" name="ScorePaneel" visibility="public">
-        <ownedParameter xmi:id="_I3baMUFFEeeLNuHkYnDh2w" name="model" type="_I2LdA0FFEeeLNuHkYnDh2w"/>
+      <ownedOperation xmi:id="_nYizIEFFEeeLNuHkYnDh2w" name="ScorePaneel" visibility="public">
+        <ownedParameter xmi:id="_nYizIUFFEeeLNuHkYnDh2w" name="model" type="_nXu600FFEeeLNuHkYnDh2w"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_I3fEkEFFEeeLNuHkYnDh2w" name="voegTijdlabelToe" visibility="public"/>
-      <ownedOperation xmi:id="_I3kkIEFFEeeLNuHkYnDh2w" name="begin" visibility="public"/>
-      <ownedOperation xmi:id="_I3qqwEFFEeeLNuHkYnDh2w" name="run" visibility="public">
-        <eAnnotations xmi:id="_I3qqwUFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
-          <details xmi:id="_I3qqwkFFEeeLNuHkYnDh2w" key="documentation" value=" When an object implementing interface &lt;code>Runnable&lt;/code> is used&#xD;&#xA; to create a thread, starting the thread causes the object's&#xD;&#xA; &lt;code>run&lt;/code> method to be called in that separately executing&#xD;&#xA; thread.&#xD;&#xA; &lt;p>&#xD;&#xA; The general contract of the method &lt;code>run&lt;/code> is that it may&#xD;&#xA; take any action whatsoever.&#xD;&#xA; @see     java.lang.Thread#run()&#xD;&#xA; "/>
+      <ownedOperation xmi:id="_nYmdgEFFEeeLNuHkYnDh2w" name="voegTijdlabelToe" visibility="public"/>
+      <ownedOperation xmi:id="_nYqH4EFFEeeLNuHkYnDh2w" name="begin" visibility="public"/>
+      <ownedOperation xmi:id="_nYtyQEFFEeeLNuHkYnDh2w" name="run" visibility="public">
+        <eAnnotations xmi:id="_nYtyQUFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+          <details xmi:id="_nYtyQkFFEeeLNuHkYnDh2w" key="documentation" value=" When an object implementing interface &lt;code>Runnable&lt;/code> is used&#xD;&#xA; to create a thread, starting the thread causes the object's&#xD;&#xA; &lt;code>run&lt;/code> method to be called in that separately executing&#xD;&#xA; thread.&#xD;&#xA; &lt;p>&#xD;&#xA; The general contract of the method &lt;code>run&lt;/code> is that it may&#xD;&#xA; take any action whatsoever.&#xD;&#xA; @see     java.lang.Thread#run()&#xD;&#xA; "/>
         </eAnnotations>
       </ownedOperation>
-      <ownedOperation xmi:id="_I3wKUEFFEeeLNuHkYnDh2w" name="slaap" visibility="public">
-        <ownedParameter xmi:id="_I3wKUUFFEeeLNuHkYnDh2w" name="millisec">
+      <ownedOperation xmi:id="_nYw1kEFFEeeLNuHkYnDh2w" name="slaap" visibility="public">
+        <ownedParameter xmi:id="_nYw1kUFFEeeLNuHkYnDh2w" name="millisec">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_I2LdCUFFEeeLNuHkYnDh2w" name="Vorm" visibility="public">
-      <eAnnotations xmi:id="_I2LdCkFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
-        <details xmi:id="_I2LdC0FFEeeLNuHkYnDh2w" key="documentation" value=" De interface-klasse &lt;code>Vorm&lt;/code>, zodat de subklassen de methode &lt;code>teken&lt;/code> kunnen overriden en deze in een loop kan worden aangeroepen.&#xD;&#xA; &#xD;&#xA; @author Jesse&#xD;&#xA; @version 0.5&#xD;&#xA; @see AbstracteVorm&#xD;&#xA;"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_nXu62UFFEeeLNuHkYnDh2w" name="Vorm" visibility="public">
+      <eAnnotations xmi:id="_nXu62kFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+        <details xmi:id="_nXu620FFEeeLNuHkYnDh2w" key="documentation" value=" De interface-klasse &lt;code>Vorm&lt;/code>, zodat de subklassen de methode &lt;code>teken&lt;/code> kunnen overriden en deze in een loop kan worden aangeroepen.&#xD;&#xA; &#xD;&#xA; @author Jesse&#xD;&#xA; @version 0.5&#xD;&#xA; @see AbstracteVorm&#xD;&#xA;"/>
       </eAnnotations>
-      <ownedOperation xmi:id="_I30bwEFFEeeLNuHkYnDh2w" name="teken" visibility="public"/>
+      <ownedOperation xmi:id="_nYzR0EFFEeeLNuHkYnDh2w" name="teken" visibility="public"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_I2LdDEFFEeeLNuHkYnDh2w" name="AbstracteVorm" visibility="public" isAbstract="true">
-      <eAnnotations xmi:id="_I2LdDUFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
-        <details xmi:id="_I2LdDkFFEeeLNuHkYnDh2w" key="documentation" value=" De klasse &lt;code>AbstracteVorm&lt;/code> met alle gedeelde methodes van de verschillende vormen.&#xD;&#xA; &#xD;&#xA; @author Jesse&#xD;&#xA; @version 0.5&#xD;&#xA; @see Vorm&#xD;&#xA;"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nXu63EFFEeeLNuHkYnDh2w" name="AbstracteVorm" visibility="public" isAbstract="true">
+      <eAnnotations xmi:id="_nXu63UFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+        <details xmi:id="_nXu63kFFEeeLNuHkYnDh2w" key="documentation" value=" De klasse &lt;code>AbstracteVorm&lt;/code> met alle gedeelde methodes van de verschillende vormen.&#xD;&#xA; &#xD;&#xA; @author Jesse&#xD;&#xA; @version 0.5&#xD;&#xA; @see Vorm&#xD;&#xA;"/>
       </eAnnotations>
-      <packageImport xmi:id="_I324AUFFEeeLNuHkYnDh2w" importedPackage="_I2MrIUFFEeeLNuHkYnDh2w" visibility="private"/>
-      <packageImport xmi:id="_I324AkFFEeeLNuHkYnDh2w" importedPackage="_I2-uQEFFEeeLNuHkYnDh2w" visibility="private"/>
-      <generalization xmi:id="_I324AEFFEeeLNuHkYnDh2w" general="_I3TeYEFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I34GIEFFEeeLNuHkYnDh2w" name="pen" visibility="protected" type="_I2SxwEFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I357UEFFEeeLNuHkYnDh2w" name="view" visibility="protected" type="_I2MEEEFFEeeLNuHkYnDh2w" association="_I7QxVUFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I36iYEFFEeeLNuHkYnDh2w" name="model" visibility="protected" type="_I2LdA0FFEeeLNuHkYnDh2w" association="_I7QKRkFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I37JcEFFEeeLNuHkYnDh2w" name="aantalMillisec" visibility="protected">
+      <packageImport xmi:id="_nY0f8UFFEeeLNuHkYnDh2w" importedPackage="_nXwI8UFFEeeLNuHkYnDh2w" visibility="private"/>
+      <packageImport xmi:id="_nY0f8kFFEeeLNuHkYnDh2w" importedPackage="_nYODAEFFEeeLNuHkYnDh2w" visibility="private"/>
+      <generalization xmi:id="_nY0f8EFFEeeLNuHkYnDh2w" general="_nYdTkEFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nY1HAEFFEeeLNuHkYnDh2w" name="pen" visibility="protected" type="_nX2PkEFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nY1uEEFFEeeLNuHkYnDh2w" name="view" visibility="protected" type="_nXvh4EFFEeeLNuHkYnDh2w" association="_nbjq6EFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nY2VIEFFEeeLNuHkYnDh2w" name="model" visibility="protected" type="_nXu600FFEeeLNuHkYnDh2w" association="_nbjq4EFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nY2VIUFFEeeLNuHkYnDh2w" name="aantalMillisec" visibility="protected">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_I37JcUFFEeeLNuHkYnDh2w" name="breedte" visibility="protected">
+      <ownedAttribute xmi:id="_nY2VIkFFEeeLNuHkYnDh2w" name="breedte" visibility="protected">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_I37wgEFFEeeLNuHkYnDh2w" name="hoogte" visibility="protected">
+      <ownedAttribute xmi:id="_nY2VI0FFEeeLNuHkYnDh2w" name="hoogte" visibility="protected">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_I37wgUFFEeeLNuHkYnDh2w" name="x" visibility="protected">
+      <ownedAttribute xmi:id="_nY2VJEFFEeeLNuHkYnDh2w" name="x" visibility="protected">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_I38XkEFFEeeLNuHkYnDh2w" name="y" visibility="protected">
+      <ownedAttribute xmi:id="_nY28MEFFEeeLNuHkYnDh2w" name="y" visibility="protected">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_I38XkUFFEeeLNuHkYnDh2w" name="dx" visibility="protected">
+      <ownedAttribute xmi:id="_nY28MUFFEeeLNuHkYnDh2w" name="dx" visibility="protected">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_I38-oEFFEeeLNuHkYnDh2w" name="dy" visibility="protected">
+      <ownedAttribute xmi:id="_nY3jQEFFEeeLNuHkYnDh2w" name="dy" visibility="protected">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_I38-oUFFEeeLNuHkYnDh2w" name="vertraging" visibility="protected">
+      <ownedAttribute xmi:id="_nY3jQUFFEeeLNuHkYnDh2w" name="vertraging" visibility="protected">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_I38-okFFEeeLNuHkYnDh2w" name="teller" visibility="protected">
+      <ownedAttribute xmi:id="_nY3jQkFFEeeLNuHkYnDh2w" name="teller" visibility="protected">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_I39lsEFFEeeLNuHkYnDh2w" name="kleur" visibility="protected" type="_I2VOAEFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I3-z0EFFEeeLNuHkYnDh2w" name="wiskleur" visibility="protected" type="_I2VOAEFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I3-z0UFFEeeLNuHkYnDh2w" name="doorgaan" visibility="protected">
+      <ownedAttribute xmi:id="_nY4KUEFFEeeLNuHkYnDh2w" name="kleur" visibility="protected" type="_nX3dsEFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nY4xYEFFEeeLNuHkYnDh2w" name="wiskleur" visibility="protected" type="_nX3dsEFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nY4xYUFFEeeLNuHkYnDh2w" name="doorgaan" visibility="protected">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_I3-z0kFFEeeLNuHkYnDh2w" name="pauze" visibility="protected">
+      <ownedAttribute xmi:id="_nY5YcEFFEeeLNuHkYnDh2w" name="pauze" visibility="protected">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
       </ownedAttribute>
-      <interfaceRealization xmi:id="_I31p4EFFEeeLNuHkYnDh2w" name="jesse.Vorm" client="_I2LdDEFFEeeLNuHkYnDh2w" supplier="_I2LdCUFFEeeLNuHkYnDh2w" contract="_I2LdCUFFEeeLNuHkYnDh2w"/>
-      <ownedOperation xmi:id="_I4BQEEFFEeeLNuHkYnDh2w" name="AbstracteVorm" visibility="protected">
-        <ownedParameter xmi:id="_I4BQEUFFEeeLNuHkYnDh2w" name="g" type="_I2SxwEFFEeeLNuHkYnDh2w"/>
+      <interfaceRealization xmi:id="_nYz44EFFEeeLNuHkYnDh2w" name="jesse.Vorm" client="_nXu63EFFEeeLNuHkYnDh2w" supplier="_nXu62UFFEeeLNuHkYnDh2w" contract="_nXu62UFFEeeLNuHkYnDh2w"/>
+      <ownedOperation xmi:id="_nY7NoEFFEeeLNuHkYnDh2w" name="AbstracteVorm" visibility="protected">
+        <ownedParameter xmi:id="_nY7NoUFFEeeLNuHkYnDh2w" name="g" type="_nX2PkEFFEeeLNuHkYnDh2w"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_I4KaAEFFEeeLNuHkYnDh2w" name="AbstracteVorm" visibility="protected">
-        <ownedParameter xmi:id="_I4KaAUFFEeeLNuHkYnDh2w" name="g" type="_I2SxwEFFEeeLNuHkYnDh2w"/>
-        <ownedParameter xmi:id="_I4KaAkFFEeeLNuHkYnDh2w" name="model" type="_I2LdA0FFEeeLNuHkYnDh2w"/>
-        <ownedParameter xmi:id="_I4KaA0FFEeeLNuHkYnDh2w" name="view" type="_I2MEEEFFEeeLNuHkYnDh2w"/>
-        <ownedParameter xmi:id="_I4KaBEFFEeeLNuHkYnDh2w" name="breedte">
+      <ownedOperation xmi:id="_nZB7UEFFEeeLNuHkYnDh2w" name="AbstracteVorm" visibility="protected">
+        <ownedParameter xmi:id="_nZB7UUFFEeeLNuHkYnDh2w" name="g" type="_nX2PkEFFEeeLNuHkYnDh2w"/>
+        <ownedParameter xmi:id="_nZB7UkFFEeeLNuHkYnDh2w" name="model" type="_nXu600FFEeeLNuHkYnDh2w"/>
+        <ownedParameter xmi:id="_nZB7U0FFEeeLNuHkYnDh2w" name="view" type="_nXvh4EFFEeeLNuHkYnDh2w"/>
+        <ownedParameter xmi:id="_nZB7VEFFEeeLNuHkYnDh2w" name="breedte">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_I4KaBUFFEeeLNuHkYnDh2w" name="hoogte">
+        <ownedParameter xmi:id="_nZB7VUFFEeeLNuHkYnDh2w" name="hoogte">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_I4KaBkFFEeeLNuHkYnDh2w" name="kleur" type="_I2VOAEFFEeeLNuHkYnDh2w"/>
+        <ownedParameter xmi:id="_nZB7VkFFEeeLNuHkYnDh2w" name="kleur" type="_nX3dsEFFEeeLNuHkYnDh2w"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_I4OrcEFFEeeLNuHkYnDh2w" name="init" visibility="protected"/>
-      <ownedOperation xmi:id="_I4RuwEFFEeeLNuHkYnDh2w" name="getRandomInRange" visibility="protected">
-        <ownedParameter xmi:id="_I4RuwUFFEeeLNuHkYnDh2w" name="min">
+      <ownedOperation xmi:id="_nZEXkEFFEeeLNuHkYnDh2w" name="init" visibility="protected"/>
+      <ownedOperation xmi:id="_nZHa4EFFEeeLNuHkYnDh2w" name="getRandomInRange" visibility="protected">
+        <ownedParameter xmi:id="_nZHa4UFFEeeLNuHkYnDh2w" name="min">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_I4RuwkFFEeeLNuHkYnDh2w" name="max">
+        <ownedParameter xmi:id="_nZHa4kFFEeeLNuHkYnDh2w" name="max">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_I4Ruw0FFEeeLNuHkYnDh2w" direction="return">
+        <ownedParameter xmi:id="_nZHa40FFEeeLNuHkYnDh2w" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_I4ULAEFFEeeLNuHkYnDh2w" name="getTeller" visibility="public">
-        <ownedParameter xmi:id="_I4ULAUFFEeeLNuHkYnDh2w" direction="return">
+      <ownedOperation xmi:id="_nZKeMEFFEeeLNuHkYnDh2w" name="getTeller" visibility="public">
+        <ownedParameter xmi:id="_nZKeMUFFEeeLNuHkYnDh2w" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_I4XOUEFFEeeLNuHkYnDh2w" name="run" visibility="public">
-        <eAnnotations xmi:id="_I4XOUUFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
-          <details xmi:id="_I4XOUkFFEeeLNuHkYnDh2w" key="documentation" value=" If this thread was constructed using a separate&#xD;&#xA; &lt;code>Runnable&lt;/code> run object, then that&#xD;&#xA; &lt;code>Runnable&lt;/code> object's &lt;code>run&lt;/code> method is called;&#xD;&#xA; otherwise, this method does nothing and returns.&#xD;&#xA; &lt;p>&#xD;&#xA; Subclasses of &lt;code>Thread&lt;/code> should override this method.&#xD;&#xA; @see     #start()&#xD;&#xA; @see     #stop()&#xD;&#xA; @see     #Thread(ThreadGroup, Runnable, String)&#xD;&#xA; "/>
+      <ownedOperation xmi:id="_nZNhgEFFEeeLNuHkYnDh2w" name="run" visibility="public">
+        <eAnnotations xmi:id="_nZNhgUFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+          <details xmi:id="_nZNhgkFFEeeLNuHkYnDh2w" key="documentation" value=" If this thread was constructed using a separate&#xD;&#xA; &lt;code>Runnable&lt;/code> run object, then that&#xD;&#xA; &lt;code>Runnable&lt;/code> object's &lt;code>run&lt;/code> method is called;&#xD;&#xA; otherwise, this method does nothing and returns.&#xD;&#xA; &lt;p>&#xD;&#xA; Subclasses of &lt;code>Thread&lt;/code> should override this method.&#xD;&#xA; @see     #start()&#xD;&#xA; @see     #stop()&#xD;&#xA; @see     #Thread(ThreadGroup, Runnable, String)&#xD;&#xA; "/>
         </eAnnotations>
       </ownedOperation>
-      <ownedOperation xmi:id="_I4ZqkEFFEeeLNuHkYnDh2w" name="teken" visibility="public" isAbstract="true"/>
-      <ownedOperation xmi:id="_I4ct4EFFEeeLNuHkYnDh2w" name="nuStoppen" visibility="public"/>
-      <ownedOperation xmi:id="_I4gYQEFFEeeLNuHkYnDh2w" name="reset" visibility="public"/>
-      <ownedOperation xmi:id="_I4kpsEFFEeeLNuHkYnDh2w" name="pauzeer" visibility="public"/>
-      <ownedOperation xmi:id="_I4qJQEFFEeeLNuHkYnDh2w" name="pauzeVoorbij" visibility="public"/>
-      <ownedOperation xmi:id="_I4uasEFFEeeLNuHkYnDh2w" name="controleerPauze" visibility="public"/>
-      <ownedOperation xmi:id="_I4yFEEFFEeeLNuHkYnDh2w" name="heeftPauze" visibility="public">
-        <ownedParameter xmi:id="_I4yFEUFFEeeLNuHkYnDh2w" direction="return">
+      <ownedOperation xmi:id="_nZRL4EFFEeeLNuHkYnDh2w" name="teken" visibility="public" isAbstract="true"/>
+      <ownedOperation xmi:id="_nZToIEFFEeeLNuHkYnDh2w" name="nuStoppen" visibility="public"/>
+      <ownedOperation xmi:id="_nZWrcEFFEeeLNuHkYnDh2w" name="reset" visibility="public"/>
+      <ownedOperation xmi:id="_nZZuwEFFEeeLNuHkYnDh2w" name="pauzeer" visibility="public"/>
+      <ownedOperation xmi:id="_nZeAMEFFEeeLNuHkYnDh2w" name="pauzeVoorbij" visibility="public"/>
+      <ownedOperation xmi:id="_nZhDgEFFEeeLNuHkYnDh2w" name="controleerPauze" visibility="public"/>
+      <ownedOperation xmi:id="_nZkG0EFFEeeLNuHkYnDh2w" name="heeftPauze" visibility="public">
+        <ownedParameter xmi:id="_nZkG0UFFEeeLNuHkYnDh2w" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_I42WgEFFEeeLNuHkYnDh2w" name="verplaats" visibility="public"/>
-      <ownedOperation xmi:id="_I46n8EFFEeeLNuHkYnDh2w" name="slaap" visibility="public">
-        <ownedParameter xmi:id="_I46n8UFFEeeLNuHkYnDh2w" name="millisec">
+      <ownedOperation xmi:id="_nZnKIEFFEeeLNuHkYnDh2w" name="verplaats" visibility="public"/>
+      <ownedOperation xmi:id="_nZq0gEFFEeeLNuHkYnDh2w" name="slaap" visibility="public">
+        <ownedParameter xmi:id="_nZq0gUFFEeeLNuHkYnDh2w" name="millisec">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_I2LdD0FFEeeLNuHkYnDh2w" name="Driehoek" visibility="public">
-      <eAnnotations xmi:id="_I2LdEEFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
-        <details xmi:id="_I2LdEUFFEeeLNuHkYnDh2w" key="documentation" value=" De klasse &lt;code>Driehoek&lt;/code> is een subklasse van &lt;code>AbstracteVorm&lt;/code> en respresenteert een driehoek.&#xD;&#xA; &#xD;&#xA; @author Jesse&#xD;&#xA; @version 0.5&#xD;&#xA; @see AbstracteVorm&#xD;&#xA; @see Vorm&#xD;&#xA;"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nXu630FFEeeLNuHkYnDh2w" name="Driehoek" visibility="public">
+      <eAnnotations xmi:id="_nXu64EFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+        <details xmi:id="_nXu64UFFEeeLNuHkYnDh2w" key="documentation" value=" De klasse &lt;code>Driehoek&lt;/code> is een subklasse van &lt;code>AbstracteVorm&lt;/code> en respresenteert een driehoek.&#xD;&#xA; &#xD;&#xA; @author Jesse&#xD;&#xA; @version 0.5&#xD;&#xA; @see AbstracteVorm&#xD;&#xA; @see Vorm&#xD;&#xA;"/>
       </eAnnotations>
-      <packageImport xmi:id="_I49rQUFFEeeLNuHkYnDh2w" importedPackage="_I2MrIUFFEeeLNuHkYnDh2w" visibility="private"/>
-      <generalization xmi:id="_I49rQEFFEeeLNuHkYnDh2w" general="_I2LdDEFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I4-SUEFFEeeLNuHkYnDh2w" name="xPoints" visibility="private">
+      <packageImport xmi:id="_nZtQwUFFEeeLNuHkYnDh2w" importedPackage="_nXwI8UFFEeeLNuHkYnDh2w" visibility="private"/>
+      <generalization xmi:id="_nZtQwEFFEeeLNuHkYnDh2w" general="_nXu63EFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nZt30EFFEeeLNuHkYnDh2w" name="xPoints" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I4-SUUFFEeeLNuHkYnDh2w" value="*"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nZt30UFFEeeLNuHkYnDh2w" value="*"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_I4-5YEFFEeeLNuHkYnDh2w" name="yPoints" visibility="private">
+      <ownedAttribute xmi:id="_nZue4EFFEeeLNuHkYnDh2w" name="yPoints" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I4-5YUFFEeeLNuHkYnDh2w" value="*"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nZue4UFFEeeLNuHkYnDh2w" value="*"/>
       </ownedAttribute>
-      <interfaceRealization xmi:id="_I49EMEFFEeeLNuHkYnDh2w" name="jesse.Vorm" client="_I2LdD0FFEeeLNuHkYnDh2w" supplier="_I2LdCUFFEeeLNuHkYnDh2w" contract="_I2LdCUFFEeeLNuHkYnDh2w"/>
-      <ownedOperation xmi:id="_I5FAAEFFEeeLNuHkYnDh2w" name="Driehoek" visibility="public">
-        <ownedParameter xmi:id="_I5FAAUFFEeeLNuHkYnDh2w" name="g" type="_I2SxwEFFEeeLNuHkYnDh2w"/>
-        <ownedParameter xmi:id="_I5FAAkFFEeeLNuHkYnDh2w" name="model" type="_I2LdA0FFEeeLNuHkYnDh2w"/>
-        <ownedParameter xmi:id="_I5FAA0FFEeeLNuHkYnDh2w" name="view" type="_I2MEEEFFEeeLNuHkYnDh2w"/>
-        <ownedParameter xmi:id="_I5FABEFFEeeLNuHkYnDh2w" name="breedte">
+      <interfaceRealization xmi:id="_nZspsEFFEeeLNuHkYnDh2w" name="jesse.Vorm" client="_nXu630FFEeeLNuHkYnDh2w" supplier="_nXu62UFFEeeLNuHkYnDh2w" contract="_nXu62UFFEeeLNuHkYnDh2w"/>
+      <ownedOperation xmi:id="_nZ1MkEFFEeeLNuHkYnDh2w" name="Driehoek" visibility="public">
+        <ownedParameter xmi:id="_nZ1MkUFFEeeLNuHkYnDh2w" name="g" type="_nX2PkEFFEeeLNuHkYnDh2w"/>
+        <ownedParameter xmi:id="_nZ1MkkFFEeeLNuHkYnDh2w" name="model" type="_nXu600FFEeeLNuHkYnDh2w"/>
+        <ownedParameter xmi:id="_nZ1Mk0FFEeeLNuHkYnDh2w" name="view" type="_nXvh4EFFEeeLNuHkYnDh2w"/>
+        <ownedParameter xmi:id="_nZ1MlEFFEeeLNuHkYnDh2w" name="breedte">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_I5FABUFFEeeLNuHkYnDh2w" name="hoogte">
+        <ownedParameter xmi:id="_nZ1MlUFFEeeLNuHkYnDh2w" name="hoogte">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_I5FABkFFEeeLNuHkYnDh2w" name="kleur" type="_I2VOAEFFEeeLNuHkYnDh2w"/>
+        <ownedParameter xmi:id="_nZ1MlkFFEeeLNuHkYnDh2w" name="kleur" type="_nX3dsEFFEeeLNuHkYnDh2w"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_I5IDUEFFEeeLNuHkYnDh2w" name="teken" visibility="public"/>
+      <ownedOperation xmi:id="_nZ3o0EFFEeeLNuHkYnDh2w" name="teken" visibility="public"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_I2MEEEFFEeeLNuHkYnDh2w" name="ReactietestView" visibility="public">
-      <eAnnotations xmi:id="_I2MEEUFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
-        <details xmi:id="_I2MEEkFFEeeLNuHkYnDh2w" key="documentation" value=" De klasse &lt;code>ReactietestView&lt;/code> met het gebied waarop de vormen getekent worden. Ook worden de vormen vanuit deze klasse aangemaakt.&#xD;&#xA; &#xD;&#xA; @author Jesse&#xD;&#xA; @version 0.5&#xD;&#xA; @see ReactietestModel&#xD;&#xA;"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nXvh4EFFEeeLNuHkYnDh2w" name="ReactietestView" visibility="public">
+      <eAnnotations xmi:id="_nXvh4UFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+        <details xmi:id="_nXvh4kFFEeeLNuHkYnDh2w" key="documentation" value=" De klasse &lt;code>ReactietestView&lt;/code> met het gebied waarop de vormen getekent worden. Ook worden de vormen vanuit deze klasse aangemaakt.&#xD;&#xA; &#xD;&#xA; @author Jesse&#xD;&#xA; @version 0.5&#xD;&#xA; @see ReactietestModel&#xD;&#xA;"/>
       </eAnnotations>
-      <elementImport xmi:id="_I5LGoEFFEeeLNuHkYnDh2w" importedElement="_I2VOAEFFEeeLNuHkYnDh2w" visibility="private"/>
-      <packageImport xmi:id="_I5LGoUFFEeeLNuHkYnDh2w" importedPackage="_I2NSM0FFEeeLNuHkYnDh2w" visibility="private"/>
-      <packageImport xmi:id="_I5LGokFFEeeLNuHkYnDh2w" importedPackage="_I3RCJUFFEeeLNuHkYnDh2w" visibility="private"/>
-      <generalization xmi:id="_I5KfkEFFEeeLNuHkYnDh2w" general="_I2jQcEFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I5LtsEFFEeeLNuHkYnDh2w" name="model" visibility="private" type="_I2LdA0FFEeeLNuHkYnDh2w" association="_I7QxUUFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I5M70EFFEeeLNuHkYnDh2w" name="circel" visibility="private" type="_I2LdDEFFEeeLNuHkYnDh2w" association="_I7QxUEFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I5OJ8EFFEeeLNuHkYnDh2w" name="driehoek" visibility="private" type="_I2LdDEFFEeeLNuHkYnDh2w" association="_I7QxU0FFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I5PYEEFFEeeLNuHkYnDh2w" name="vierkant" visibility="private" type="_I2LdDEFFEeeLNuHkYnDh2w" association="_I7QxVEFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I5QmMEFFEeeLNuHkYnDh2w" name="rechthoek" visibility="private" type="_I2LdDEFFEeeLNuHkYnDh2w" association="_I7QxVUFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I5QmMUFFEeeLNuHkYnDh2w" name="grootte" visibility="private">
+      <elementImport xmi:id="_nZ6sIEFFEeeLNuHkYnDh2w" importedElement="_nX3dsEFFEeeLNuHkYnDh2w" visibility="private"/>
+      <packageImport xmi:id="_nZ6sIUFFEeeLNuHkYnDh2w" importedPackage="_nXwI9UFFEeeLNuHkYnDh2w" visibility="private"/>
+      <packageImport xmi:id="_nZ6sIkFFEeeLNuHkYnDh2w" importedPackage="_nYbeZkFFEeeLNuHkYnDh2w" visibility="private"/>
+      <generalization xmi:id="_nZ6FEEFFEeeLNuHkYnDh2w" general="_nX-LYEFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nZ76QEFFEeeLNuHkYnDh2w" name="model" visibility="private" type="_nXu600FFEeeLNuHkYnDh2w" association="_nbjq5EFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nZ9vcEFFEeeLNuHkYnDh2w" name="circel" visibility="private" type="_nXu63EFFEeeLNuHkYnDh2w" association="_nbjq40FFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nZ_koEFFEeeLNuHkYnDh2w" name="driehoek" visibility="private" type="_nXu63EFFEeeLNuHkYnDh2w" association="_nbjq5kFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_naBZ0EFFEeeLNuHkYnDh2w" name="vierkant" visibility="private" type="_nXu63EFFEeeLNuHkYnDh2w" association="_nbjq50FFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_naDPAEFFEeeLNuHkYnDh2w" name="rechthoek" visibility="private" type="_nXu63EFFEeeLNuHkYnDh2w" association="_nbjq6EFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_naD2EEFFEeeLNuHkYnDh2w" name="grootte" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_I5R0UUFFEeeLNuHkYnDh2w" name="rand" visibility="private" type="_I5R0UEFFEeeLNuHkYnDh2w"/>
-      <ownedOperation xmi:id="_I5WFwEFFEeeLNuHkYnDh2w" name="ReactietestView" visibility="public">
-        <ownedParameter xmi:id="_I5WFwUFFEeeLNuHkYnDh2w" name="model" type="_I2LdA0FFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_naFrQUFFEeeLNuHkYnDh2w" name="rand" visibility="private" type="_naFrQEFFEeeLNuHkYnDh2w"/>
+      <ownedOperation xmi:id="_naKjwEFFEeeLNuHkYnDh2w" name="ReactietestView" visibility="public">
+        <ownedParameter xmi:id="_naKjwUFFEeeLNuHkYnDh2w" name="model" type="_nXu600FFEeeLNuHkYnDh2w"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_I5ZwIEFFEeeLNuHkYnDh2w" name="startCircel" visibility="public"/>
-      <ownedOperation xmi:id="_I5dagEFFEeeLNuHkYnDh2w" name="startDriehoek" visibility="public"/>
-      <ownedOperation xmi:id="_I5hE4EFFEeeLNuHkYnDh2w" name="startVierkant" visibility="public"/>
-      <ownedOperation xmi:id="_I5l9YEFFEeeLNuHkYnDh2w" name="startRechthoek" visibility="public"/>
-      <ownedOperation xmi:id="_I5pnwEFFEeeLNuHkYnDh2w" name="stopCircel" visibility="public"/>
-      <ownedOperation xmi:id="_I5t5MEFFEeeLNuHkYnDh2w" name="stopDriehoek" visibility="public"/>
-      <ownedOperation xmi:id="_I5yxsEFFEeeLNuHkYnDh2w" name="stopVierkant" visibility="public"/>
-      <ownedOperation xmi:id="_I544UEFFEeeLNuHkYnDh2w" name="stopRechthoek" visibility="public"/>
-      <ownedOperation xmi:id="_I5--8EFFEeeLNuHkYnDh2w" name="klikCircel" visibility="public"/>
-      <ownedOperation xmi:id="_I6FFkEFFEeeLNuHkYnDh2w" name="klikDriehoek" visibility="public"/>
-      <ownedOperation xmi:id="_I6LMMEFFEeeLNuHkYnDh2w" name="klikVierkant" visibility="public"/>
-      <ownedOperation xmi:id="_I6RS0EFFEeeLNuHkYnDh2w" name="klikRechthoek" visibility="public"/>
-      <ownedOperation xmi:id="_I6WyYEFFEeeLNuHkYnDh2w" name="start" visibility="public"/>
-      <ownedOperation xmi:id="_I6cR8EFFEeeLNuHkYnDh2w" name="stop" visibility="public"/>
+      <ownedOperation xmi:id="_naQDUEFFEeeLNuHkYnDh2w" name="startCircel" visibility="public"/>
+      <ownedOperation xmi:id="_naVi4EFFEeeLNuHkYnDh2w" name="startDriehoek" visibility="public"/>
+      <ownedOperation xmi:id="_nabpgEFFEeeLNuHkYnDh2w" name="startVierkant" visibility="public"/>
+      <ownedOperation xmi:id="_nagiAEFFEeeLNuHkYnDh2w" name="startRechthoek" visibility="public"/>
+      <ownedOperation xmi:id="_nalagEFFEeeLNuHkYnDh2w" name="stopCircel" visibility="public"/>
+      <ownedOperation xmi:id="_napE4EFFEeeLNuHkYnDh2w" name="stopDriehoek" visibility="public"/>
+      <ownedOperation xmi:id="_natWUEFFEeeLNuHkYnDh2w" name="stopVierkant" visibility="public"/>
+      <ownedOperation xmi:id="_naxAsEFFEeeLNuHkYnDh2w" name="stopRechthoek" visibility="public"/>
+      <ownedOperation xmi:id="_na0EAEFFEeeLNuHkYnDh2w" name="klikCircel" visibility="public"/>
+      <ownedOperation xmi:id="_na3HUEFFEeeLNuHkYnDh2w" name="klikDriehoek" visibility="public"/>
+      <ownedOperation xmi:id="_na6xsEFFEeeLNuHkYnDh2w" name="klikVierkant" visibility="public"/>
+      <ownedOperation xmi:id="_na91AEFFEeeLNuHkYnDh2w" name="klikRechthoek" visibility="public"/>
+      <ownedOperation xmi:id="_nbBfYEFFEeeLNuHkYnDh2w" name="start" visibility="public"/>
+      <ownedOperation xmi:id="_nbFJwEFFEeeLNuHkYnDh2w" name="stop" visibility="public"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_I2MEE0FFEeeLNuHkYnDh2w" name="BedieningsPaneel" visibility="public">
-      <eAnnotations xmi:id="_I2MEFEFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
-        <details xmi:id="_I2MEFUFFEeeLNuHkYnDh2w" key="documentation" value=" De klasse &lt;code>BedieningsPaneel&lt;/code> is verantwoordelijk voor het aanmaken van de knoppen en het afhandelen van events.&#xD;&#xA; &#xD;&#xA; @author Jesse&#xD;&#xA; @version 0.5&#xD;&#xA; @see ReactietestModel&#xD;&#xA; @see ReactietestView&#xD;&#xA;"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nXvh40FFEeeLNuHkYnDh2w" name="BedieningsPaneel" visibility="public">
+      <eAnnotations xmi:id="_nXvh5EFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+        <details xmi:id="_nXvh5UFFEeeLNuHkYnDh2w" key="documentation" value=" De klasse &lt;code>BedieningsPaneel&lt;/code> is verantwoordelijk voor het aanmaken van de knoppen en het afhandelen van events.&#xD;&#xA; &#xD;&#xA; @author Jesse&#xD;&#xA; @version 0.5&#xD;&#xA; @see ReactietestModel&#xD;&#xA; @see ReactietestView&#xD;&#xA;"/>
       </eAnnotations>
-      <elementImport xmi:id="_I6hKcUFFEeeLNuHkYnDh2w" importedElement="_I2VOAEFFEeeLNuHkYnDh2w" visibility="private"/>
-      <elementImport xmi:id="_I6hxgkFFEeeLNuHkYnDh2w" importedElement="_I6hxgUFFEeeLNuHkYnDh2w" visibility="private"/>
-      <elementImport xmi:id="_I6hxhEFFEeeLNuHkYnDh2w" importedElement="_I6hxg0FFEeeLNuHkYnDh2w" visibility="private"/>
-      <elementImport xmi:id="_I6hxhkFFEeeLNuHkYnDh2w" importedElement="_I5R0UEFFEeeLNuHkYnDh2w" visibility="private"/>
-      <packageImport xmi:id="_I6hxhUFFEeeLNuHkYnDh2w" importedPackage="_I2NSM0FFEeeLNuHkYnDh2w" visibility="private"/>
-      <generalization xmi:id="_I6hKcEFFEeeLNuHkYnDh2w" general="_I2jQcEFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I6i_oEFFEeeLNuHkYnDh2w" name="model" visibility="private" type="_I2LdA0FFEeeLNuHkYnDh2w" association="_I7QxVkFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I6k00EFFEeeLNuHkYnDh2w" name="view" visibility="private" type="_I2MEEEFFEeeLNuHkYnDh2w" association="_I7QxWEFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I6mqAUFFEeeLNuHkYnDh2w" name="startKnop" visibility="private" type="_I6mqAEFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I6n4IEFFEeeLNuHkYnDh2w" name="stopKnop" visibility="private" type="_I6mqAEFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I6ptUEFFEeeLNuHkYnDh2w" name="circelKnop" visibility="private" type="_I6mqAEFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I6q7cEFFEeeLNuHkYnDh2w" name="driehoekKnop" visibility="private" type="_I6mqAEFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I616kEFFEeeLNuHkYnDh2w" name="vierkantKnop" visibility="private" type="_I6mqAEFFEeeLNuHkYnDh2w"/>
-      <ownedAttribute xmi:id="_I63vwEFFEeeLNuHkYnDh2w" name="rechthoekKnop" visibility="private" type="_I6mqAEFFEeeLNuHkYnDh2w"/>
-      <ownedOperation xmi:id="_I68BMEFFEeeLNuHkYnDh2w" name="BedieningsPaneel" visibility="public">
-        <ownedParameter xmi:id="_I68BMUFFEeeLNuHkYnDh2w" name="model" type="_I2LdA0FFEeeLNuHkYnDh2w"/>
-        <ownedParameter xmi:id="_I68BMkFFEeeLNuHkYnDh2w" name="view" type="_I2MEEEFFEeeLNuHkYnDh2w"/>
+      <elementImport xmi:id="_nbHmAUFFEeeLNuHkYnDh2w" importedElement="_nX3dsEFFEeeLNuHkYnDh2w" visibility="private"/>
+      <elementImport xmi:id="_nbHmBEFFEeeLNuHkYnDh2w" importedElement="_nbHmA0FFEeeLNuHkYnDh2w" visibility="private"/>
+      <elementImport xmi:id="_nbINEUFFEeeLNuHkYnDh2w" importedElement="_nbINEEFFEeeLNuHkYnDh2w" visibility="private"/>
+      <elementImport xmi:id="_nbINE0FFEeeLNuHkYnDh2w" importedElement="_naFrQEFFEeeLNuHkYnDh2w" visibility="private"/>
+      <packageImport xmi:id="_nbINEkFFEeeLNuHkYnDh2w" importedPackage="_nXwI9UFFEeeLNuHkYnDh2w" visibility="private"/>
+      <generalization xmi:id="_nbHmAEFFEeeLNuHkYnDh2w" general="_nX-LYEFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nbI0IEFFEeeLNuHkYnDh2w" name="model" visibility="private" type="_nXu600FFEeeLNuHkYnDh2w" association="_nbjq6UFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nbKCQEFFEeeLNuHkYnDh2w" name="view" visibility="private" type="_nXvh4EFFEeeLNuHkYnDh2w" association="_nbjq60FFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nbKpUUFFEeeLNuHkYnDh2w" name="startKnop" visibility="private" type="_nbKpUEFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nbL3cEFFEeeLNuHkYnDh2w" name="stopKnop" visibility="private" type="_nbKpUEFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nbMegEFFEeeLNuHkYnDh2w" name="circelKnop" visibility="private" type="_nbKpUEFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nbNFkEFFEeeLNuHkYnDh2w" name="driehoekKnop" visibility="private" type="_nbKpUEFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nbOTsEFFEeeLNuHkYnDh2w" name="vierkantKnop" visibility="private" type="_nbKpUEFFEeeLNuHkYnDh2w"/>
+      <ownedAttribute xmi:id="_nbO6wEFFEeeLNuHkYnDh2w" name="rechthoekKnop" visibility="private" type="_nbKpUEFFEeeLNuHkYnDh2w"/>
+      <ownedOperation xmi:id="_nbSlIEFFEeeLNuHkYnDh2w" name="BedieningsPaneel" visibility="public">
+        <ownedParameter xmi:id="_nbSlIUFFEeeLNuHkYnDh2w" name="model" type="_nXu600FFEeeLNuHkYnDh2w"/>
+        <ownedParameter xmi:id="_nbSlIkFFEeeLNuHkYnDh2w" name="view" type="_nXvh4EFFEeeLNuHkYnDh2w"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_I6_rkEFFEeeLNuHkYnDh2w" name="start" visibility="public"/>
-      <ownedOperation xmi:id="_I7D9AEFFEeeLNuHkYnDh2w" name="stop" visibility="public"/>
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_I2MEFkFFEeeLNuHkYnDh2w" name="Handler" visibility="package">
-        <ownedOperation xmi:id="_I7NuAEFFEeeLNuHkYnDh2w" name="actionPerformed" visibility="public">
-          <eAnnotations xmi:id="_I7NuAUFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
-            <details xmi:id="_I7NuAkFFEeeLNuHkYnDh2w" key="documentation" value=" Invoked when an action occurs.&#xD;&#xA; "/>
+      <ownedOperation xmi:id="_nbWPgEFFEeeLNuHkYnDh2w" name="start" visibility="public"/>
+      <ownedOperation xmi:id="_nbZ54EFFEeeLNuHkYnDh2w" name="stop" visibility="public"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_nXvh5kFFEeeLNuHkYnDh2w" name="Handler" visibility="package">
+        <ownedOperation xmi:id="_nbh1sEFFEeeLNuHkYnDh2w" name="actionPerformed" visibility="public">
+          <eAnnotations xmi:id="_nbh1sUFFEeeLNuHkYnDh2w" source="http://www.eclipse.org/umlgen/reverse/java/doc">
+            <details xmi:id="_nbh1skFFEeeLNuHkYnDh2w" key="documentation" value=" Invoked when an action occurs.&#xD;&#xA; "/>
           </eAnnotations>
-          <ownedParameter xmi:id="_I7NuA0FFEeeLNuHkYnDh2w" name="e" type="_I6hxgUFFEeeLNuHkYnDh2w"/>
+          <ownedParameter xmi:id="_nbh1s0FFEeeLNuHkYnDh2w" name="e" type="_nbHmA0FFEeeLNuHkYnDh2w"/>
         </ownedOperation>
       </nestedClassifier>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_I7QKQEFFEeeLNuHkYnDh2w" name="model_target" memberEnd="_I2kekEFFEeeLNuHkYnDh2w _I7QKQUFFEeeLNuHkYnDh2w">
-      <ownedEnd xmi:id="_I7QKQUFFEeeLNuHkYnDh2w" name="target" type="_I2K19kFFEeeLNuHkYnDh2w" association="_I7QKQEFFEeeLNuHkYnDh2w"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_nbjD0EFFEeeLNuHkYnDh2w" name="model_target" memberEnd="_nX_ZgEFFEeeLNuHkYnDh2w _nbjD0UFFEeeLNuHkYnDh2w">
+      <ownedEnd xmi:id="_nbjD0UFFEeeLNuHkYnDh2w" name="target" type="_nXuTxkFFEeeLNuHkYnDh2w" association="_nbjD0EFFEeeLNuHkYnDh2w"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_I7QKQkFFEeeLNuHkYnDh2w" name="view_target" memberEnd="_I2mTwEFFEeeLNuHkYnDh2w _I7QKQ0FFEeeLNuHkYnDh2w">
-      <ownedEnd xmi:id="_I7QKQ0FFEeeLNuHkYnDh2w" name="target" type="_I2K19kFFEeeLNuHkYnDh2w" association="_I7QKQkFFEeeLNuHkYnDh2w"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_nbjD0kFFEeeLNuHkYnDh2w" name="view_target" memberEnd="_nYAAkEFFEeeLNuHkYnDh2w _nbjD00FFEeeLNuHkYnDh2w">
+      <ownedEnd xmi:id="_nbjD00FFEeeLNuHkYnDh2w" name="target" type="_nXuTxkFFEeeLNuHkYnDh2w" association="_nbjD0kFFEeeLNuHkYnDh2w"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_I7QKREFFEeeLNuHkYnDh2w" name="scorePaneel_target" memberEnd="_I2nh4EFFEeeLNuHkYnDh2w _I7QKRUFFEeeLNuHkYnDh2w">
-      <ownedEnd xmi:id="_I7QKRUFFEeeLNuHkYnDh2w" name="target" type="_I2K19kFFEeeLNuHkYnDh2w" association="_I7QKREFFEeeLNuHkYnDh2w"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_nbjD1EFFEeeLNuHkYnDh2w" name="scorePaneel_target" memberEnd="_nYAnoEFFEeeLNuHkYnDh2w _nbjD1UFFEeeLNuHkYnDh2w">
+      <ownedEnd xmi:id="_nbjD1UFFEeeLNuHkYnDh2w" name="target" type="_nXuTxkFFEeeLNuHkYnDh2w" association="_nbjD1EFFEeeLNuHkYnDh2w"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_I7QKRkFFEeeLNuHkYnDh2w" name="vormen_model" memberEnd="_I2_8YEFFEeeLNuHkYnDh2w _I36iYEFFEeeLNuHkYnDh2w"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_I7QKR0FFEeeLNuHkYnDh2w" name="model_target" memberEnd="_I3SQQEFFEeeLNuHkYnDh2w _I7QKSEFFEeeLNuHkYnDh2w">
-      <ownedEnd xmi:id="_I7QKSEFFEeeLNuHkYnDh2w" name="target" type="_I2LdBkFFEeeLNuHkYnDh2w" association="_I7QKR0FFEeeLNuHkYnDh2w"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_nbjq4EFFEeeLNuHkYnDh2w" name="vormen_model" memberEnd="_nYOqEEFFEeeLNuHkYnDh2w _nY2VIEFFEeeLNuHkYnDh2w"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_nbjq4UFFEeeLNuHkYnDh2w" name="model_target" memberEnd="_nYcFcEFFEeeLNuHkYnDh2w _nbjq4kFFEeeLNuHkYnDh2w">
+      <ownedEnd xmi:id="_nbjq4kFFEeeLNuHkYnDh2w" name="target" type="_nXu61kFFEeeLNuHkYnDh2w" association="_nbjq4UFFEeeLNuHkYnDh2w"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_I7QxUEFFEeeLNuHkYnDh2w" name="view_circel" memberEnd="_I5M70EFFEeeLNuHkYnDh2w"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_I7QxUUFFEeeLNuHkYnDh2w" name="model_target" memberEnd="_I5LtsEFFEeeLNuHkYnDh2w _I7QxUkFFEeeLNuHkYnDh2w">
-      <ownedEnd xmi:id="_I7QxUkFFEeeLNuHkYnDh2w" name="target" type="_I2MEEEFFEeeLNuHkYnDh2w" association="_I7QxUUFFEeeLNuHkYnDh2w"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_nbjq40FFEeeLNuHkYnDh2w" name="view_circel" memberEnd="_nZ9vcEFFEeeLNuHkYnDh2w"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_nbjq5EFFEeeLNuHkYnDh2w" name="model_target" memberEnd="_nZ76QEFFEeeLNuHkYnDh2w _nbjq5UFFEeeLNuHkYnDh2w">
+      <ownedEnd xmi:id="_nbjq5UFFEeeLNuHkYnDh2w" name="target" type="_nXvh4EFFEeeLNuHkYnDh2w" association="_nbjq5EFFEeeLNuHkYnDh2w"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_I7QxU0FFEeeLNuHkYnDh2w" name="driehoek_view" memberEnd="_I5OJ8EFFEeeLNuHkYnDh2w"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_I7QxVEFFEeeLNuHkYnDh2w" name="vierkant_view" memberEnd="_I5PYEEFFEeeLNuHkYnDh2w"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_I7QxVUFFEeeLNuHkYnDh2w" name="rechthoek_view" memberEnd="_I5QmMEFFEeeLNuHkYnDh2w _I357UEFFEeeLNuHkYnDh2w"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_I7QxVkFFEeeLNuHkYnDh2w" name="model_target" memberEnd="_I6i_oEFFEeeLNuHkYnDh2w _I7QxV0FFEeeLNuHkYnDh2w">
-      <ownedEnd xmi:id="_I7QxV0FFEeeLNuHkYnDh2w" name="target" type="_I2MEE0FFEeeLNuHkYnDh2w" association="_I7QxVkFFEeeLNuHkYnDh2w"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_nbjq5kFFEeeLNuHkYnDh2w" name="driehoek_view" memberEnd="_nZ_koEFFEeeLNuHkYnDh2w"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_nbjq50FFEeeLNuHkYnDh2w" name="vierkant_view" memberEnd="_naBZ0EFFEeeLNuHkYnDh2w"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_nbjq6EFFEeeLNuHkYnDh2w" name="rechthoek_view" memberEnd="_naDPAEFFEeeLNuHkYnDh2w _nY1uEEFFEeeLNuHkYnDh2w"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_nbjq6UFFEeeLNuHkYnDh2w" name="model_target" memberEnd="_nbI0IEFFEeeLNuHkYnDh2w _nbjq6kFFEeeLNuHkYnDh2w">
+      <ownedEnd xmi:id="_nbjq6kFFEeeLNuHkYnDh2w" name="target" type="_nXvh40FFEeeLNuHkYnDh2w" association="_nbjq6UFFEeeLNuHkYnDh2w"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_I7QxWEFFEeeLNuHkYnDh2w" name="view_target" memberEnd="_I6k00EFFEeeLNuHkYnDh2w _I7QxWUFFEeeLNuHkYnDh2w">
-      <ownedEnd xmi:id="_I7QxWUFFEeeLNuHkYnDh2w" name="target" type="_I2MEE0FFEeeLNuHkYnDh2w" association="_I7QxWEFFEeeLNuHkYnDh2w"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_nbjq60FFEeeLNuHkYnDh2w" name="view_target" memberEnd="_nbKCQEFFEeeLNuHkYnDh2w _nbjq7EFFEeeLNuHkYnDh2w">
+      <ownedEnd xmi:id="_nbjq7EFFEeeLNuHkYnDh2w" name="target" type="_nXvh40FFEeeLNuHkYnDh2w" association="_nbjq60FFEeeLNuHkYnDh2w"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_I7W38EFFEeeLNuHkYnDh2w" name="jesse_swing" client="_I2KO7UFFEeeLNuHkYnDh2w" supplier="_I2NSM0FFEeeLNuHkYnDh2w"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_I7W38UFFEeeLNuHkYnDh2w" name="jesse_awt" client="_I2KO7UFFEeeLNuHkYnDh2w" supplier="_I2MrIUFFEeeLNuHkYnDh2w"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_I7W38kFFEeeLNuHkYnDh2w" name="jesse_util" client="_I2KO7UFFEeeLNuHkYnDh2w" supplier="_I2-uQEFFEeeLNuHkYnDh2w"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_I7W380FFEeeLNuHkYnDh2w" name="jesse_border" client="_I2KO7UFFEeeLNuHkYnDh2w" supplier="_I3RCJUFFEeeLNuHkYnDh2w"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_I7W39EFFEeeLNuHkYnDh2w" name="jesse_text" client="_I2KO7UFFEeeLNuHkYnDh2w" supplier="_I3RCIEFFEeeLNuHkYnDh2w"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_I7W39UFFEeeLNuHkYnDh2w" name="jesse_event" client="_I2KO7UFFEeeLNuHkYnDh2w" supplier="_I6hxgEFFEeeLNuHkYnDh2w"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_nbojYEFFEeeLNuHkYnDh2w" name="jesse_swing" client="_nXtsvkFFEeeLNuHkYnDh2w" supplier="_nXwI9UFFEeeLNuHkYnDh2w"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_nbojYUFFEeeLNuHkYnDh2w" name="jesse_awt" client="_nXtsvkFFEeeLNuHkYnDh2w" supplier="_nXwI8UFFEeeLNuHkYnDh2w"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_nbojYkFFEeeLNuHkYnDh2w" name="jesse_util" client="_nXtsvkFFEeeLNuHkYnDh2w" supplier="_nYODAEFFEeeLNuHkYnDh2w"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_nbojY0FFEeeLNuHkYnDh2w" name="jesse_border" client="_nXtsvkFFEeeLNuHkYnDh2w" supplier="_nYbeZkFFEeeLNuHkYnDh2w"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_nbojZEFFEeeLNuHkYnDh2w" name="jesse_text" client="_nXtsvkFFEeeLNuHkYnDh2w" supplier="_nYbeYUFFEeeLNuHkYnDh2w"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_nbojZUFFEeeLNuHkYnDh2w" name="jesse_event" client="_nXtsvkFFEeeLNuHkYnDh2w" supplier="_nbHmAkFFEeeLNuHkYnDh2w"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Package" xmi:id="_I2MrIEFFEeeLNuHkYnDh2w" name="java">
-    <packagedElement xmi:type="uml:Package" xmi:id="_I2MrIUFFEeeLNuHkYnDh2w" name="awt">
-      <packagedElement xmi:type="uml:Package" xmi:id="_I6hxgEFFEeeLNuHkYnDh2w" name="event">
-        <packagedElement xmi:type="uml:DataType" xmi:id="_I6hxgUFFEeeLNuHkYnDh2w" name="ActionEvent"/>
-        <packagedElement xmi:type="uml:DataType" xmi:id="_I6hxg0FFEeeLNuHkYnDh2w" name="ActionListener"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_nXwI8EFFEeeLNuHkYnDh2w" name="java">
+    <packagedElement xmi:type="uml:Package" xmi:id="_nXwI8UFFEeeLNuHkYnDh2w" name="awt">
+      <packagedElement xmi:type="uml:Package" xmi:id="_nbHmAkFFEeeLNuHkYnDh2w" name="event">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_nbHmA0FFEeeLNuHkYnDh2w" name="ActionEvent"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_nbINEEFFEeeLNuHkYnDh2w" name="ActionListener"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:DataType" xmi:id="_I2NSMEFFEeeLNuHkYnDh2w" name="Font"/>
-      <packagedElement xmi:type="uml:DataType" xmi:id="_I2SxwEFFEeeLNuHkYnDh2w" name="Graphics"/>
-      <packagedElement xmi:type="uml:DataType" xmi:id="_I2VOAEFFEeeLNuHkYnDh2w" name="Color"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_nXwI8kFFEeeLNuHkYnDh2w" name="Font"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_nX2PkEFFEeeLNuHkYnDh2w" name="Graphics"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_nX3dsEFFEeeLNuHkYnDh2w" name="Color"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_I2-uQEFFEeeLNuHkYnDh2w" name="util">
-      <packagedElement xmi:type="uml:DataType" xmi:id="_I2_VUEFFEeeLNuHkYnDh2w" name="ArrayList"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_nYODAEFFEeeLNuHkYnDh2w" name="util">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_nYODAkFFEeeLNuHkYnDh2w" name="ArrayList"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_I3P0AEFFEeeLNuHkYnDh2w" name="lang">
-      <packagedElement xmi:type="uml:DataType" xmi:id="_I3P0AUFFEeeLNuHkYnDh2w" name="Runnable"/>
-      <packagedElement xmi:type="uml:DataType" xmi:id="_I3TeYEFFEeeLNuHkYnDh2w" name="Thread"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_nYaQQEFFEeeLNuHkYnDh2w" name="lang">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_nYaQQUFFEeeLNuHkYnDh2w" name="Runnable"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_nYdTkEFFEeeLNuHkYnDh2w" name="Thread"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_I3RCIEFFEeeLNuHkYnDh2w" name="text">
-      <packagedElement xmi:type="uml:DataType" xmi:id="_I3RCIUFFEeeLNuHkYnDh2w" name="DecimalFormat"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_nYbeYUFFEeeLNuHkYnDh2w" name="text">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_nYbeYkFFEeeLNuHkYnDh2w" name="DecimalFormat"/>
     </packagedElement>
   </packagedElement>
-  <packagedElement xmi:type="uml:Package" xmi:id="_I2NSMkFFEeeLNuHkYnDh2w" name="javax">
-    <packagedElement xmi:type="uml:Package" xmi:id="_I2NSM0FFEeeLNuHkYnDh2w" name="swing">
-      <packagedElement xmi:type="uml:Package" xmi:id="_I3RCJUFFEeeLNuHkYnDh2w" name="border">
-        <packagedElement xmi:type="uml:DataType" xmi:id="_I5R0UEFFEeeLNuHkYnDh2w" name="Border"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_nXwI9EFFEeeLNuHkYnDh2w" name="javax">
+    <packagedElement xmi:type="uml:Package" xmi:id="_nXwI9UFFEeeLNuHkYnDh2w" name="swing">
+      <packagedElement xmi:type="uml:Package" xmi:id="_nYbeZkFFEeeLNuHkYnDh2w" name="border">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_naFrQEFFEeeLNuHkYnDh2w" name="Border"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:DataType" xmi:id="_I2jQcEFFEeeLNuHkYnDh2w" name="JPanel"/>
-      <packagedElement xmi:type="uml:DataType" xmi:id="_I3UsgEFFEeeLNuHkYnDh2w" name="JLabel"/>
-      <packagedElement xmi:type="uml:DataType" xmi:id="_I6mqAEFFEeeLNuHkYnDh2w" name="JButton"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_nX-LYEFFEeeLNuHkYnDh2w" name="JPanel"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_nYehsEFFEeeLNuHkYnDh2w" name="JLabel"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_nbKpUEFFEeeLNuHkYnDh2w" name="JButton"/>
     </packagedElement>
   </packagedElement>
 </uml:Model>
