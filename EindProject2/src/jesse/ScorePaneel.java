@@ -118,6 +118,10 @@ public class ScorePaneel extends JPanel implements Runnable{
 		
 	}
 	
+	/*
+	 * Laat de thread slapen gedurende het gegeven aantal milliseconden.
+	 * @param millisec het aantal milliseconden dat de thread moet slapen.
+	 */
 	public void slaap(int millisec){
 		try{
 			Thread.sleep(millisec);
